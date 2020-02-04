@@ -2410,6 +2410,22 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF70305247": {
+    "contest_id": 1296,
+    "language": "Python 3",
+    "path": "codeforces/1296/B.py",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Food Buying",
+    "problem_url": "https://codeforces.com/contest/1296/problem/B",
+    "submission_id": "CF70305247",
+    "submission_url": "https://codeforces.com/contest/1296/submission/70305247",
+    "tags": [
+      "math",
+      "*900"
+    ],
+    "timestamp": "Feb/04/2020 23:12"
+  },
   "CF70898940": {
     "contest_id": 1303,
     "language": "GNU C++14",
