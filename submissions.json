@@ -2410,6 +2410,22 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF75044342": {
+    "contest_id": 1295,
+    "language": "PyPy 3",
+    "path": "codeforces/1295/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Display The Number",
+    "problem_url": "https://codeforces.com/contest/1295/problem/A",
+    "submission_id": "CF75044342",
+    "submission_url": "https://codeforces.com/contest/1295/submission/75044342",
+    "tags": [
+      "greedy",
+      "*900"
+    ],
+    "timestamp": "Apr/01/2020 11:35"
+  },
   "CF75120200": {
     "contest_id": 1331,
     "language": "PyPy 3",
