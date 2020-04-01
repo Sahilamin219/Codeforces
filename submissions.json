@@ -2410,6 +2410,22 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF75151212": {
+    "contest_id": 1331,
+    "language": "GNU C++17",
+    "path": "codeforces/1331/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Limericks",
+    "problem_url": "https://codeforces.com/contest/1331/problem/B",
+    "submission_id": "CF75151212",
+    "submission_url": "https://codeforces.com/contest/1331/submission/75151212",
+    "tags": [
+      "math",
+      "number theory"
+    ],
+    "timestamp": "Apr/01/2020 21:37"
+  },
   "CF75275576": {
     "contest_id": 1004,
     "language": "Python 3",
