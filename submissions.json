@@ -2410,6 +2410,19 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF75120200": {
+    "contest_id": 1331,
+    "language": "PyPy 3",
+    "path": "codeforces/1331/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Is it rated?",
+    "problem_url": "https://codeforces.com/contest/1331/problem/A",
+    "submission_id": "CF75120200",
+    "submission_url": "https://codeforces.com/contest/1331/submission/75120200",
+    "tags": [],
+    "timestamp": "Apr/01/2020 20:32"
+  },
   "CF75136122": {
     "contest_id": 1331,
     "language": "GNU C++17",
