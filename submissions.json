@@ -2410,6 +2410,21 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF75476111": {
+    "contest_id": 1331,
+    "language": "GNU C++17",
+    "path": "codeforces/1331/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "...And after happily lived ever they",
+    "problem_url": "https://codeforces.com/contest/1331/problem/C",
+    "submission_id": "CF75476111",
+    "submission_url": "https://codeforces.com/contest/1331/submission/75476111",
+    "tags": [
+      "bitmasks"
+    ],
+    "timestamp": "Apr/04/2020 15:59"
+  },
   "CF75586578": {
     "contest_id": 230,
     "language": "GNU C++17",
