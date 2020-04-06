@@ -2410,6 +2410,23 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF75651123": {
+    "contest_id": 1269,
+    "language": "GNU C++17",
+    "path": "codeforces/1269/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Equation",
+    "problem_url": "https://codeforces.com/contest/1269/problem/A",
+    "submission_id": "CF75651123",
+    "submission_url": "https://codeforces.com/contest/1269/submission/75651123",
+    "tags": [
+      "brute force",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Apr/06/2020 17:05"
+  },
   "CF75741729": {
     "contest_id": 1197,
     "language": "GNU C++17",
