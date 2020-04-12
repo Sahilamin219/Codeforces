@@ -2410,6 +2410,23 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF76276960": {
+    "contest_id": 1015,
+    "language": "PyPy 3",
+    "path": "codeforces/1015/D.py",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Walking Between Houses",
+    "problem_url": "https://codeforces.com/contest/1015/problem/D",
+    "submission_id": "CF76276960",
+    "submission_url": "https://codeforces.com/contest/1015/submission/76276960",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1600"
+    ],
+    "timestamp": "Apr/12/2020 07:03"
+  },
   "CF76439329": {
     "contest_id": 1339,
     "language": "PyPy 3",
