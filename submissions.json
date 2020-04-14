@@ -2410,6 +2410,24 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF76651505": {
+    "contest_id": 797,
+    "language": "GNU C++17",
+    "path": "codeforces/797/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "k-Factorization",
+    "problem_url": "https://codeforces.com/contest/797/problem/A",
+    "submission_id": "CF76651505",
+    "submission_url": "https://codeforces.com/contest/797/submission/76651505",
+    "tags": [
+      "implementation",
+      "math",
+      "number theory",
+      "*1100"
+    ],
+    "timestamp": "Apr/14/2020 08:18"
+  },
   "CF76822125": {
     "contest_id": 1337,
     "language": "PyPy 3",
