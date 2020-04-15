@@ -2410,6 +2410,23 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF76822125": {
+    "contest_id": 1337,
+    "language": "PyPy 3",
+    "path": "codeforces/1337/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Ichihime and Triangle",
+    "problem_url": "https://codeforces.com/contest/1337/problem/A",
+    "submission_id": "CF76822125",
+    "submission_url": "https://codeforces.com/contest/1337/submission/76822125",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Apr/15/2020 20:16"
+  },
   "CF76852774": {
     "contest_id": 1337,
     "language": "PyPy 3",
