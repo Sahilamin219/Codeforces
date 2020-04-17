@@ -2410,6 +2410,23 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF77082530": {
+    "contest_id": 892,
+    "language": "GNU C++17",
+    "path": "codeforces/892/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Greed",
+    "problem_url": "https://codeforces.com/contest/892/problem/A",
+    "submission_id": "CF77082530",
+    "submission_url": "https://codeforces.com/contest/892/submission/77082530",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Apr/17/2020 19:25"
+  },
   "CF77095487": {
     "contest_id": 869,
     "language": "PyPy 3",
