@@ -2410,6 +2410,24 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF77605533": {
+    "contest_id": 1343,
+    "language": "Python 3",
+    "path": "codeforces/1343/C.py",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Alternating Subsequence",
+    "problem_url": "https://codeforces.com/contest/1343/problem/C",
+    "submission_id": "CF77605533",
+    "submission_url": "https://codeforces.com/contest/1343/submission/77605533",
+    "tags": [
+      "dp",
+      "greedy",
+      "two pointers",
+      "*1200"
+    ],
+    "timestamp": "Apr/22/2020 09:35"
+  },
   "CF77809684": {
     "contest_id": 1341,
     "language": "Python 3",
