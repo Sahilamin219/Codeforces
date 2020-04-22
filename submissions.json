@@ -2410,6 +2410,23 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF77597478": {
+    "contest_id": 1343,
+    "language": "Python 3",
+    "path": "codeforces/1343/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Candies",
+    "problem_url": "https://codeforces.com/contest/1343/problem/A",
+    "submission_id": "CF77597478",
+    "submission_url": "https://codeforces.com/contest/1343/submission/77597478",
+    "tags": [
+      "brute force",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Apr/22/2020 05:47"
+  },
   "CF77598132": {
     "contest_id": 1343,
     "language": "Python 3",
