@@ -2410,6 +2410,22 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF77809684": {
+    "contest_id": 1341,
+    "language": "Python 3",
+    "path": "codeforces/1341/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Nastya and Rice",
+    "problem_url": "https://codeforces.com/contest/1341/problem/A",
+    "submission_id": "CF77809684",
+    "submission_url": "https://codeforces.com/contest/1341/submission/77809684",
+    "tags": [
+      "math",
+      "*900"
+    ],
+    "timestamp": "Apr/23/2020 21:06"
+  },
   "CF78161110": {
     "contest_id": 1342,
     "language": "PyPy 3",
