@@ -2410,6 +2410,23 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF78522660": {
+    "contest_id": 1201,
+    "language": "Python 3",
+    "path": "codeforces/1201/B.py",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Zero Array",
+    "problem_url": "https://codeforces.com/contest/1201/problem/B",
+    "submission_id": "CF78522660",
+    "submission_url": "https://codeforces.com/contest/1201/submission/78522660",
+    "tags": [
+      "greedy",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Apr/30/2020 04:49"
+  },
   "CF78646153": {
     "contest_id": 1197,
     "language": "Python 3",
