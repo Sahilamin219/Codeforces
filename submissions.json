@@ -2410,6 +2410,23 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF78646153": {
+    "contest_id": 1197,
+    "language": "Python 3",
+    "path": "codeforces/1197/B.py",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Pillars",
+    "problem_url": "https://codeforces.com/contest/1197/problem/B",
+    "submission_id": "CF78646153",
+    "submission_url": "https://codeforces.com/contest/1197/submission/78646153",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "May/01/2020 16:29"
+  },
   "CF79322645": {
     "contest_id": 1338,
     "language": "PyPy 3",
