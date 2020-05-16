@@ -2410,6 +2410,24 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF80281016": {
+    "contest_id": 1350,
+    "language": "GNU C++17",
+    "path": "codeforces/1350/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Orac and Models",
+    "problem_url": "https://codeforces.com/contest/1350/problem/B",
+    "submission_id": "CF80281016",
+    "submission_url": "https://codeforces.com/contest/1350/submission/80281016",
+    "tags": [
+      "dp",
+      "math",
+      "number theory",
+      "*1400"
+    ],
+    "timestamp": "May/16/2020 11:00"
+  },
   "CF80283346": {
     "contest_id": 676,
     "language": "PyPy 3",
