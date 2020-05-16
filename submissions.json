@@ -2410,6 +2410,23 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF80305866": {
+    "contest_id": 807,
+    "language": "PyPy 3",
+    "path": "codeforces/807/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Is it rated?",
+    "problem_url": "https://codeforces.com/contest/807/problem/A",
+    "submission_id": "CF80305866",
+    "submission_url": "https://codeforces.com/contest/807/submission/80305866",
+    "tags": [
+      "implementation",
+      "sortings",
+      "*900"
+    ],
+    "timestamp": "May/16/2020 16:15"
+  },
   "CF80308575": {
     "contest_id": 1348,
     "language": "PyPy 3",
