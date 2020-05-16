@@ -1,0 +1,20 @@
+t=1
+while(t):
+	t-=1
+	n=int(input())
+	l=list(map(int,input().split()))
+	mini=101
+	maxi=0
+	mini_i=0
+	maxi_i=0
+	for i in range(0,n):
+		if(l[i]<mini):
+			mini=l[i]
+			mini_i=i+1
+		if(l[i]>maxi):
+			maxi=l[i]
+			maxi_i=i+1
+	ans=max(abs(n-maxi_i),abs(n-mini_i))
+	ans=max(ans,abs(1-mini_i))
+	ans=max(ans,abs(1-maxi_i))
+	print(ans)
