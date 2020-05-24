@@ -2410,6 +2410,22 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF81201998": {
+    "contest_id": 1015,
+    "language": "Python 3",
+    "path": "codeforces/1015/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Points in Segments",
+    "problem_url": "https://codeforces.com/contest/1015/problem/A",
+    "submission_id": "CF81201998",
+    "submission_url": "https://codeforces.com/contest/1015/submission/81201998",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "May/24/2020 18:57"
+  },
   "CF81205991": {
     "contest_id": 1360,
     "language": "Python 3",
