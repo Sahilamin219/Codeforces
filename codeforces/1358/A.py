@@ -1,0 +1,10 @@
+t=int(input())
+while(t):
+	t-=1
+	n,m=map(int,input().split())
+	k=n*m
+	if(k%2):
+		k=(k//2)+1
+	else:
+		k=k//2
+	print(k)
