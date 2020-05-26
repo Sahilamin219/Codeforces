@@ -2410,6 +2410,23 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF81514349": {
+    "contest_id": 1358,
+    "language": "Python 3",
+    "path": "codeforces/1358/B.py",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Maria Breaks the Self-isolation",
+    "problem_url": "https://codeforces.com/contest/1358/problem/B",
+    "submission_id": "CF81514349",
+    "submission_url": "https://codeforces.com/contest/1358/submission/81514349",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1000"
+    ],
+    "timestamp": "May/26/2020 20:50"
+  },
   "CF81526874": {
     "contest_id": 1358,
     "language": "Python 3",
