@@ -1,4 +1,20 @@
 {
+  "AC13650009": {
+    "contest_id": "agc044",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/agc044/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Pay to Win",
+    "problem_url": "https://atcoder.jp/contests/agc044/tasks/agc044_a",
+    "submission_id": "AC13650009",
+    "submission_url": "https://atcoder.jp/contests/agc044/submissions/13650009",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "May/27/2020 22:14"
+  },
   "AC13785799": {
     "contest_id": "abc169",
     "language": "C++ (GCC 9.2.1)",
