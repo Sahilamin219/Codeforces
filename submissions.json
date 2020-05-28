@@ -2410,6 +2410,22 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF81666095": {
+    "contest_id": 451,
+    "language": "Python 3",
+    "path": "codeforces/451/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Game With Sticks",
+    "problem_url": "https://codeforces.com/contest/451/problem/A",
+    "submission_id": "CF81666095",
+    "submission_url": "https://codeforces.com/contest/451/submission/81666095",
+    "tags": [
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "May/28/2020 08:49"
+  },
   "CF81918218": {
     "contest_id": 1359,
     "language": "GNU C++17",
