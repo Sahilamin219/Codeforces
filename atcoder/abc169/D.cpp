@@ -10,7 +10,7 @@ int main() {
     ios_base::sync_with_stdio(0); cin.tie(0); 
     ll N; cin >> N;
     int ans = 0;
-    FOR(i, 2, 100000000) {
+    FOR(i, 2, 10000000) {
         int cur = 0;
         while (N % i == 0) {
             cur++;
