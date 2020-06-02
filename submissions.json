@@ -1,4 +1,20 @@
 {
+  "AC13960521": {
+    "contest_id": "abc169",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc169/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Div Game",
+    "problem_url": "https://atcoder.jp/contests/abc169/tasks/abc169_d",
+    "submission_id": "AC13960521",
+    "submission_url": "https://atcoder.jp/contests/abc169/submissions/13960521",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jun/02/2020 20:37"
+  },
   "AC13961057": {
     "contest_id": "abc169",
     "language": "Python (3.8.2)",
