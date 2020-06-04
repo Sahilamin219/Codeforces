@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 #define f(i,a,b) for(int i=a;i<b;i++)
+#define r(i,a,b) for(int i=a;i>b;i--) 
 using namespace std;
 int main(){
 	ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
@@ -17,6 +18,8 @@ int main(){
     int ans=1;
    	vector<int> for_ans;
    	for_ans.push_back(n);
+   	// for(auto z:d)cout<<z<<" ";
+   	// cout<<"\n";
    	f(i,1,n){
    		int flag=1;
    		f(x,0,n){
