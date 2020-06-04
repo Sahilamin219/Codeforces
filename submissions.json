@@ -2410,6 +2410,23 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF82484343": {
+    "contest_id": 1360,
+    "language": "Python 3",
+    "path": "codeforces/1360/D.py",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Buying Shovels",
+    "problem_url": "https://codeforces.com/contest/1360/problem/D",
+    "submission_id": "CF82484343",
+    "submission_url": "https://codeforces.com/contest/1360/submission/82484343",
+    "tags": [
+      "math",
+      "number theory",
+      "*1300"
+    ],
+    "timestamp": "Jun/04/2020 18:30"
+  },
   "CF82485600": {
     "contest_id": 1354,
     "language": "Python 3",
