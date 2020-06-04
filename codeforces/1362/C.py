@@ -4,6 +4,8 @@ while (t):
 	n=int(input())
 	i=1
 	ans=0
+	# bits = n.bit_length()
+	# print(bits)
 	while(i<=n):
 		ans+=(n//i)
 		i=(i*2)
