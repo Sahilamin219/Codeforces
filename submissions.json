@@ -1,4 +1,20 @@
 {
+  "AC14076238": {
+    "contest_id": "agc044",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/agc044/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Joker",
+    "problem_url": "https://atcoder.jp/contests/agc044/tasks/agc044_b",
+    "submission_id": "AC14076238",
+    "submission_url": "https://atcoder.jp/contests/agc044/submissions/14076238",
+    "tags": [
+      "AtCoder",
+      "*700"
+    ],
+    "timestamp": "Jun/07/2020 02:07"
+  },
   "AC14559987": {
     "contest_id": "abc171",
     "language": "Python (3.8.2)",
