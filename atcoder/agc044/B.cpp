@@ -37,9 +37,10 @@ int main(){
     }
     int ans=0;
     for (int it = 0; it < n*n; it++){
-        int value;cin >> value;
-        int x = (value+n-1)/n;
-        int y = value % n;
+        int id;
+        cin >> id;
+        int x = (id+n-1)/n;
+        int y = id % n;
         if (y == 0) y += n;
         ans += near[x][y];
         visited[x][y] = 0;
