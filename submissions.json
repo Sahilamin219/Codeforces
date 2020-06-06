@@ -1,4 +1,20 @@
 {
+  "AC14061296": {
+    "contest_id": "abc169",
+    "language": "PyPy3 (7.3.0)",
+    "path": "atcoder/abc169/F.py",
+    "platform": "AtCoder",
+    "problem_index": "F",
+    "problem_name": "Knapsack for All Subsets",
+    "problem_url": "https://atcoder.jp/contests/abc169/tasks/abc169_f",
+    "submission_id": "AC14061296",
+    "submission_url": "https://atcoder.jp/contests/abc169/submissions/14061296",
+    "tags": [
+      "AtCoder",
+      "*600"
+    ],
+    "timestamp": "Jun/06/2020 14:08"
+  },
   "AC14061329": {
     "contest_id": "abc169",
     "language": "PyPy3 (7.3.0)",
