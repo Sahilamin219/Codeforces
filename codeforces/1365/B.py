@@ -1,3 +1,21 @@
+# import sys 
+# sys.stdin = open('input.txt', 'r') 
+# sys.stdout = open('output.txt', 'w')
+def  countSetBits(n): 
+    count = 0
+    while (n): 
+        count += n & 1
+        n >>= 1
+    return count 
+import math
+def mycool(i,j,l):
+	for oo in range(m):
+		if(l[i][oo]==1):
+			return 0
+	for oo in range(n):
+		if(l[oo][j]==1):
+			return 0
+	return 1
 t=int(input())
 while t:
 	t-=1
@@ -25,3 +43,6 @@ while t:
 					break
 			if(ff):
 				print("NO")
+	# n,m=map(int,input().split())
+	# l = []
+	# for i in range(n):

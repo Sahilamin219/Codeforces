@@ -2410,6 +2410,23 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF82840962": {
+    "contest_id": 1365,
+    "language": "PyPy 3",
+    "path": "codeforces/1365/B.py",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Trouble Sort",
+    "problem_url": "https://codeforces.com/contest/1365/problem/B",
+    "submission_id": "CF82840962",
+    "submission_url": "https://codeforces.com/contest/1365/submission/82840962",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Jun/07/2020 21:19"
+  },
   "CF82866580": {
     "contest_id": 1365,
     "language": "GNU C++17",
