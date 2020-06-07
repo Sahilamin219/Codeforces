@@ -1,3 +1,10 @@
+def  countSetBits(n): 
+    count = 0
+    while (n): 
+        count += n & 1
+        n >>= 1
+    return count 
+import math
 def mycool(i,j,l):
 	for oo in range(m):
 		if(l[i][oo]==1):
