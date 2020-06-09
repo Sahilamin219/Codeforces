@@ -14,12 +14,17 @@ int main(){
 	#ifndef ONLINE_JUDGE
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
-    #endif
+    #endif//freopen("error.txt", "w", stderr);
     ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
     int n;cin>>n;
     vector<ll> v(n);
     f(i,0,n)cin>>v[i];
     map<ll,ll> m;
+    // f(i,0,n){
+    // 	map<ll,ll> ::iterator it=m.begin();
+    // 	it=m.find(v[i]);
+    // 	if(it==m.end())m[v[i]]=i;
+    // }
     ll ans=n-1;
     f(i,0,n){
     	ll validprefix=1;
