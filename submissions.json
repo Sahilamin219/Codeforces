@@ -2410,6 +2410,24 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF83235834": {
+    "contest_id": 1353,
+    "language": "PyPy 3",
+    "path": "codeforces/1353/D.py",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Constructing the Array",
+    "problem_url": "https://codeforces.com/contest/1353/problem/D",
+    "submission_id": "CF83235834",
+    "submission_url": "https://codeforces.com/contest/1353/submission/83235834",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "sortings",
+      "*1600"
+    ],
+    "timestamp": "Jun/09/2020 21:23"
+  },
   "CF83248487": {
     "contest_id": 1208,
     "language": "GNU C++17",
