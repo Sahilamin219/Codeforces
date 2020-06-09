@@ -31,9 +31,6 @@ int main(){
    		if(validprefix){
    			ans=min(ans,last_valid_ind-i);
    		}
-   		else{
-   		    break;
-   		}
    		m.clear();
     }
     cout<<ans;
