@@ -2410,6 +2410,24 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF83491936": {
+    "contest_id": 1365,
+    "language": "Python 3",
+    "path": "codeforces/1365/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Matrix Game",
+    "problem_url": "https://codeforces.com/contest/1365/problem/A",
+    "submission_id": "CF83491936",
+    "submission_url": "https://codeforces.com/contest/1365/submission/83491936",
+    "tags": [
+      "games",
+      "greedy",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Jun/12/2020 08:19"
+  },
   "CF83492047": {
     "contest_id": 1365,
     "language": "Python 3",
