@@ -3,7 +3,6 @@
 using namespace std;
 typedef long long int ll;
 int main(){
-    // i will submit again for fuunnnnn :)
 	ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
 	ll N =10000001;
 	int n;cin>>n;
