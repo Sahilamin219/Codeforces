@@ -1,4 +1,4 @@
-#BAKWAS CODE HAT YAHA SAI
+
 # t=int(input())
 t=1
 while t:
