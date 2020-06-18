@@ -2410,6 +2410,23 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF84132362": {
+    "contest_id": 388,
+    "language": "Python 3",
+    "path": "codeforces/388/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Fox and Box Accumulation",
+    "problem_url": "https://codeforces.com/contest/388/problem/A",
+    "submission_id": "CF84132362",
+    "submission_url": "https://codeforces.com/contest/388/submission/84132362",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1400"
+    ],
+    "timestamp": "Jun/18/2020 12:22"
+  },
   "CF84134084": {
     "contest_id": 1206,
     "language": "Python 3",
