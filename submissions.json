@@ -1,4 +1,20 @@
 {
+  "AC14564915": {
+    "contest_id": "abc171",
+    "language": "Python (3.8.2)",
+    "path": "atcoder/abc171/B.py",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Mix Juice",
+    "problem_url": "https://atcoder.jp/contests/abc171/tasks/abc171_b",
+    "submission_id": "AC14564915",
+    "submission_url": "https://atcoder.jp/contests/abc171/submissions/14564915",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Jun/21/2020 18:13"
+  },
   "AC14583713": {
     "contest_id": "abc171",
     "language": "Python (3.8.2)",
