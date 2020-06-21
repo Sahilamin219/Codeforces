@@ -1,7 +1,20 @@
-N = int(input())
-ans = []
-while N:
-    N -= 1
-    N, r = divmod(N, 26)
-    ans.append(chr(ord('a') + r))
-print("".join(reversed(ans)))
+n=int(input())
+s = ""
+cons = 96
+
+if n%26:
+    s+=chr(cons + n%26)
+else:
+    n-=1
+    s+="z"
+n = n//26
+
+while n:
+    if n%26:
+        s+=chr(cons + n%26)
+    else:
+        n-=1
+        s+="z"
+    n = n//26
+    
+print(s[::-1])

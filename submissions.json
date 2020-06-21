@@ -1,4 +1,20 @@
 {
+  "AC14583713": {
+    "contest_id": "abc171",
+    "language": "Python (3.8.2)",
+    "path": "atcoder/abc171/C.py",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "One Quadrillion and One Dalmatians",
+    "problem_url": "https://atcoder.jp/contests/abc171/tasks/abc171_c",
+    "submission_id": "AC14583713",
+    "submission_url": "https://atcoder.jp/contests/abc171/submissions/14583713",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jun/21/2020 19:05"
+  },
   "AC14607229": {
     "contest_id": "agc046",
     "language": "Python (3.8.2)",
