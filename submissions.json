@@ -1,4 +1,20 @@
 {
+  "AC14607229": {
+    "contest_id": "agc046",
+    "language": "Python (3.8.2)",
+    "path": "atcoder/agc046/A.py",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Takahashikun, The Strider",
+    "problem_url": "https://atcoder.jp/contests/agc046/tasks/agc046_a",
+    "submission_id": "AC14607229",
+    "submission_url": "https://atcoder.jp/contests/agc046/submissions/14607229",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Jun/22/2020 12:08"
+  },
   "AC14607245": {
     "contest_id": "agc046",
     "language": "Python (3.8.2)",
