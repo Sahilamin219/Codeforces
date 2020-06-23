@@ -31,26 +31,31 @@ int main(){
 		vector<ll> v(n);
 		vector<ll> a(k);
 		f(i,0,n)cin>>v[i];
-		f(i,0,k)cin>>a[i];
-		sort(v.rbegin(), v.rend());
-		sort(a.begin(), a.end());
-		ll h=0,cnt=0;
+		ll x=0;
 		f(i,0,k){
+			cin>>a[i];
 			if(a[i]==1){
-				h+=(2*v[cnt]);
-				cnt++;
-			}
-			else{
-				h+=v[cnt];
-				cnt++;
+				x++;
 			}
 		}
-		ll myend=k-1;
-		f(i,0,k){
-			if(a[i]!=1){
-				h+=v[myend+a[i]-1];
-				myend+=(a[i]-1);
+		sort(v.begin(), v.end());
+		sort(a.begin(), a.end());
+		ll h=0;
+		for(int i=n-1;i>=n-k;i--){
+			if(x>0){
+				h+=(v[i]*2);x--;
 			}
+			else{
+				h+=v[i];
+			}
+		}
+		ll i=n-k-1;ll j=0;
+		while(i>=0){
+			if(a[j]!=1){
+				i-=a[j]-1;
+				h+=v[i+1];
+			}
+			j++;
 		}
 		cout<<h<<endl;
 	}
