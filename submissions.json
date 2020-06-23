@@ -2410,6 +2410,23 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF84827861": {
+    "contest_id": 670,
+    "language": "GNU C++17",
+    "path": "codeforces/670/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Cinema",
+    "problem_url": "https://codeforces.com/contest/670/problem/C",
+    "submission_id": "CF84827861",
+    "submission_url": "https://codeforces.com/contest/670/submission/84827861",
+    "tags": [
+      "implementation",
+      "sortings",
+      "*1300"
+    ],
+    "timestamp": "Jun/23/2020 23:42"
+  },
   "CF84834403": {
     "contest_id": 1313,
     "language": "GNU C++17",
