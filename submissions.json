@@ -2410,6 +2410,22 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF85445962": {
+    "contest_id": 965,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/965/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Paper Airplanes",
+    "problem_url": "https://codeforces.com/contest/965/problem/A",
+    "submission_id": "CF85445962",
+    "submission_url": "https://codeforces.com/contest/965/submission/85445962",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jun/29/2020 16:02"
+  },
   "CF85471452": {
     "contest_id": 1217,
     "language": "PyPy 3",
