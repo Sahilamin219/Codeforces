@@ -50,22 +50,16 @@ int main(){
     ll sum=0,maxx=0;
     f(i,0,n)cin>>v[i];
     sort(all(v));
-    ll low=v[n-1];
-    ll high=2000000000;
-    while(low<=high){
-        ll mid=(low+high)>>1;
-        ll sum=0;
-        f(i,0,n){
-            sum+=(mid-v[i]);
-        }
-        if(sum>=mid)high=mid-1;
-        else{
-            low=mid+1;
-        }
+    ll ans=v[n-1];
+    ll extra_play=0;
+    f(i,1,n)extra_play+=(v[n-1]-v[i]);
+    while(extra_play<v[0]){
+        extra_play+=(n-1);
+        ans++;
     }
     // for(auto x: v)cout<<x<<" ";
     //     print()
-    cout<<low;
+    cout<<ans;
     return 0;
 }
 // Use one of the forms of string::insert:
