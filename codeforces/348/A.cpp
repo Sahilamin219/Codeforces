@@ -48,15 +48,14 @@ int main(){
     int n;cin>>n;
     vector<ll> v(n);
     ll sum=0,maxx=0;
-    f(i,0,n)cin>>v[i];
-    sort(all(v));
-    ll ans=v[n-1];
-    ll extra_play=0;
-    f(i,1,n)extra_play+=(v[n-1]-v[i]);
-    while(extra_play<v[0]){
-        extra_play+=(n-1);
-        ans++;
+    f(i,0,n){
+        cin>>v[i];
+        sum+=v[i];
+        maxx=max(maxx,v[i]);
     }
+    ll ans=(sum)/(n-1);
+    if(sum%(n-1))ans++;
+    ans=max(ans,maxx);
     // for(auto x: v)cout<<x<<" ";
     //     print()
     cout<<ans;
