@@ -2410,6 +2410,22 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF85679323": {
+    "contest_id": 1371,
+    "language": "Python 3",
+    "path": "codeforces/1371/B.py",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Magical Calendar",
+    "problem_url": "https://codeforces.com/contest/1371/problem/B",
+    "submission_id": "CF85679323",
+    "submission_url": "https://codeforces.com/contest/1371/submission/85679323",
+    "tags": [
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Jul/01/2020 20:31"
+  },
   "CF85704777": {
     "contest_id": 1371,
     "language": "Python 3",
