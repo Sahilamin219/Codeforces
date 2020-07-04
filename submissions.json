@@ -2410,6 +2410,24 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF85928939": {
+    "contest_id": 912,
+    "language": "PyPy 3",
+    "path": "codeforces/912/B.py",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "New Year's Eve",
+    "problem_url": "https://codeforces.com/contest/912/problem/B",
+    "submission_id": "CF85928939",
+    "submission_url": "https://codeforces.com/contest/912/submission/85928939",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "number theory",
+      "*1300"
+    ],
+    "timestamp": "Jul/04/2020 19:49"
+  },
   "CF85939179": {
     "contest_id": 1375,
     "language": "GNU C++17",
