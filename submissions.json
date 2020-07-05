@@ -2410,6 +2410,23 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF86045377": {
+    "contest_id": 1,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/1/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Spreadsheet",
+    "problem_url": "https://codeforces.com/contest/1/problem/B",
+    "submission_id": "CF86045377",
+    "submission_url": "https://codeforces.com/contest/1/submission/86045377",
+    "tags": [
+      "implementation",
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Jul/05/2020 16:11"
+  },
   "CF86048002": {
     "contest_id": 1038,
     "language": "PyPy 3",
