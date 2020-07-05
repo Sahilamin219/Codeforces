@@ -2410,6 +2410,23 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF86048002": {
+    "contest_id": 1038,
+    "language": "PyPy 3",
+    "path": "codeforces/1038/B.py",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Non-Coprime Partition",
+    "problem_url": "https://codeforces.com/contest/1038/problem/B",
+    "submission_id": "CF86048002",
+    "submission_url": "https://codeforces.com/contest/1038/submission/86048002",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Jul/05/2020 16:51"
+  },
   "CF86048863": {
     "contest_id": 483,
     "language": "PyPy 3",
