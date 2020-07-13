@@ -2410,6 +2410,23 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF86771065": {
+    "contest_id": 875,
+    "language": "PyPy 3",
+    "path": "codeforces/875/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Classroom Watch",
+    "problem_url": "https://codeforces.com/contest/875/problem/A",
+    "submission_id": "CF86771065",
+    "submission_url": "https://codeforces.com/contest/875/submission/86771065",
+    "tags": [
+      "brute force",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Jul/13/2020 23:13"
+  },
   "CF86824648": {
     "contest_id": 448,
     "language": "GNU C++17",
