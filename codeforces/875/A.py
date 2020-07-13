@@ -1,6 +1,10 @@
+# t=int(input())
 t=1
-for _ in range(t):
+for _ in range(t):# a = [list(map(int, input().split())) for i in range(n)]
 	n=int(input())
+	# n,m=map(int,input().split())
+	# l=list(map(int,input().split()))
+	# ans[ord(s[i])-97]+=1
 	nn=n
 	cnt=0
 	while(nn):
