@@ -2410,6 +2410,22 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF87058502": {
+    "contest_id": 977,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/977/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Wrong Subtraction",
+    "problem_url": "https://codeforces.com/contest/977/problem/A",
+    "submission_id": "CF87058502",
+    "submission_url": "https://codeforces.com/contest/977/submission/87058502",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jul/17/2020 15:09"
+  },
   "CF87084207": {
     "contest_id": 1385,
     "language": "GNU C++17 (64)",
