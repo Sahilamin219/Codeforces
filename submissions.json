@@ -2410,6 +2410,24 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF87409974": {
+    "contest_id": 1279,
+    "language": "PyPy 3",
+    "path": "codeforces/1279/B.py",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Verse For Santa",
+    "problem_url": "https://codeforces.com/contest/1279/problem/B",
+    "submission_id": "CF87409974",
+    "submission_url": "https://codeforces.com/contest/1279/submission/87409974",
+    "tags": [
+      "binary search",
+      "brute force",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Jul/20/2020 13:27"
+  },
   "CF87410923": {
     "contest_id": 1279,
     "language": "GNU C++17 (64)",
