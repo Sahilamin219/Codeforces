@@ -68,7 +68,7 @@ int32_t main()
         int ind=0;
         f(i,0,n)
         {
-            if (m<=v[i]){
+            if (m<v[i]){
                 ind = i;
                 m = v[i];
             }
