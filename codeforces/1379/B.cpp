@@ -133,6 +133,62 @@ int32_t main()
 			}
 		}
 	}
+	// ll n,m;cin>>n>>m;
+	// vector<vector<ll>> dij(n+1);
+	// map<pair<ll, ll>, ll> maping;
+	// f(i,0,m)
+	// {
+	// 	ll a,b,w;cin>>a>>b>>w;
+	// 	dij[a].pb(b);
+	// 	dij[b].pb(a);
+	// 	maping[{a,b}]=w;
+	// 	maping[{b,a}]=w;
+	// }
+	// priority_queue<ll> q;
+	// vector<ll> path(n+1);
+	// vector<ll> dis(n+1, inf);
+	// q.push(1);
+	// dis[0]=0;
+	// dis[1]=0;
+	// while(!q.empty())
+	// {
+	// 	ll k=q.top();
+	// 	q.pop();
+	// 	auto i=dij[k].begin();
+	// 	for(;i!=dij[k].end();i++)
+	// 	{
+	// 		ll z=*i;
+	// 		if(dis[z]>dis[k]+maping[{k,z}])
+	// 		{
+	// 			dis[z]=dis[k]+maping[{k,z}];
+	// 			path[z]=k;
+	// 			q.push(z);
+	// 		}
+	// 	}
+	// }
+	// if(dis[n]==inf)
+	// {
+	// 	cout<<-1<<endl;
+	// }
+	// else
+	// {
+	// 	// shortest(n,path);
+	// 	vector<ll> ans;
+	// 	ll end=n;
+	// 	while (end!=0){ans.pb(end),end=path[end];}
+	// 	reverse(ans.begin(),ans.end());
+	// 	for (auto it:ans)cout<<it<<" ";
+	// }
+
+	// for(auto x: s)cout<<x<<" ";
+	// print()//std::string.find("string to find")!=std::string::npos
+	// cout<<s(s);
+	// cin>>n>>m;
+	// f(i,0,n){
+	// 	string s;cin>>s;
+	// 	v.push_back(s);
+	// }
+	// // for(auto x: v)cout<<x<<endl;
 	return 0;
 }
 /*
@@ -145,3 +201,47 @@ int32_t main()
     'Cause we got the kind of love
     It takes to solve 'em
 */
+// https://codeforces.com/problemset/problem/538/C
+// https://codeforces.com/problemset/problem/762/B
+// https://codeforces.com/problemset/problem/300/B
+// https://codeforces.com/contest/1283/problem/b
+// void bfs(ll n,ll par,ll h)
+// {
+//     dp[n]=1;
+//     for(auto it:v[n])
+//     {
+//         if(it==par)
+//             continue;
+//         bfs(it,n,h+1);
+//         dp[n]+=dp[it];
+//     }
+//     // cout<<h<<" "<<n<<" "<<dp[n];
+//     // ln;
+//     he.pb({h-dp[n]+1,n});
+// }
+// int main()
+// {
+//     fast;
+//     ll n;
+//     cin>>n>>k;
+//     ll i;
+//     for(i=0;i<n-1;i++)
+//     {
+//         ll x,y;
+//         cin>>x>>y;
+//         v[x].pb(y);
+//         v[y].pb(x);
+//     }
+//     ll sum=0;
+//     bfs(1,-1,0);
+//     sort(all(he));
+//     reverse(all(he));
+//     for(i=0;i<k;i++)
+//     {
+//         sum+=he[i].fi;
+//         // cout<<sum;
+//     }
+//     cout<<sum;
+// }
+//itao-----
+// long int stol (const string&  str, size_t* idx = 0, int base = 10)
