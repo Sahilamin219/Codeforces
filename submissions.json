@@ -2410,6 +2410,24 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF88586940": {
+    "contest_id": 437,
+    "language": "PyPy 3",
+    "path": "codeforces/437/C.py",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "The Child and Toy",
+    "problem_url": "https://codeforces.com/contest/437/problem/C",
+    "submission_id": "CF88586940",
+    "submission_url": "https://codeforces.com/contest/437/submission/88586940",
+    "tags": [
+      "graphs",
+      "greedy",
+      "sortings",
+      "*1400"
+    ],
+    "timestamp": "Jul/31/2020 17:01"
+  },
   "CF88759990": {
     "contest_id": 987,
     "language": "PyPy 3",
