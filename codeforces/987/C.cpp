@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-#define sz(a) long (a.size())
+// #define s(a) long (a.size())
 #define f(i,a,b) for(long long int i=a;i<b;i++)
 #define r(i,a,b) for(long long int i=a;i>b;i--)
 #define pb push_back
