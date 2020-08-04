@@ -110,24 +110,53 @@ void solve(){
 }
 int32_t main()
 {
+    #ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+    //freopen("error.txt", "w", stderr);
+    #endif
     time_t t1, t2;
     t1 = clock();
     ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
-    int n,a;cin>>n>>a;
-    vector<int> v(n);
-    f(i,0,n)cin>>v[i];
-    int ans=0;
-    f(i,0,n)
-    {
-        int left=(a-i-1);
-        int right=(a+i-1);
-        if(left>-1 and right<n and v[left] and left!=right and v[right])ans+=2;
-        else if(left>-1 and right<n and v[left] and left==right and v[right])ans+=1;
-        else if(left>-1 and right>=n and v[left])ans+=1;
-        else if(right<n and left<0 and v[right])ans+=1;
+    //REALLY TIRED OF THIS SHIT
+    // https://codeforces.com/problemset/problem/522/A
+    // https://codeforces.com/contest/913/problem/C
+    // https://discuss.codechef.com/t/xorcist-editorial/72466
+    ll t=1;
+    // cin >> t;
+    f(i,0,t) {
+        // solve();
+        int n,a;cin>>n>>a;
+        vector<int> v(n);
+        f(i,0,n)cin>>v[i];
+        int ans=0;
+        f(i,0,n)
+        {
+            int left=(a-i-1);
+            int right=(a+i-1);
+            if(left>-1 and right<n and v[left] and left!=right and v[right])ans+=2;
+            else if(left>-1 and right<n and v[left] and left==right and v[right])ans+=1;
+            else if(left>-1 and right>=n and v[left])ans+=1;
+            else if(right<n and left<0 and v[right])ans+=1;
+        }
+        cout<<ans;
     }
-    cout<<ans;
     t2 = clock();
     cerr << "time taken: " << t2-t1;
     return 0;
 }
+// void siev(int n)
+// {
+//  sieve[0]=false;
+//  sieve[1]=false;
+//  for(int i=2; i<=sqrtl(n); i++)
+//  {
+//      if(sieve[i])
+//      {
+//          for(int j=i; i*j<=n; j++)
+//          {
+//          sieve[i*j]=false;
+//          }
+//      }
+//  }
+// }
