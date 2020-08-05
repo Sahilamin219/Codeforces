@@ -2410,6 +2410,24 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF88938513": {
+    "contest_id": 1108,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/1108/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Nice Garland",
+    "problem_url": "https://codeforces.com/contest/1108/problem/C",
+    "submission_id": "CF88938513",
+    "submission_url": "https://codeforces.com/contest/1108/submission/88938513",
+    "tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Aug/05/2020 16:28"
+  },
   "CF88943746": {
     "contest_id": 1108,
     "language": "GNU C++17 (64)",
