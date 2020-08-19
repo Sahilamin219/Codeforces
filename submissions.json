@@ -2410,6 +2410,24 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF90414582": {
+    "contest_id": 1023,
+    "language": "Python 3",
+    "path": "codeforces/1023/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Single Wildcard Pattern Matching",
+    "problem_url": "https://codeforces.com/contest/1023/problem/A",
+    "submission_id": "CF90414582",
+    "submission_url": "https://codeforces.com/contest/1023/submission/90414582",
+    "tags": [
+      "brute force",
+      "implementation",
+      "strings",
+      "*1200"
+    ],
+    "timestamp": "Aug/20/2020 00:07"
+  },
   "CF90416858": {
     "contest_id": 1023,
     "language": "Python 3",
