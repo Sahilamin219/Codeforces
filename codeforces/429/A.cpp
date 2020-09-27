@@ -6,7 +6,8 @@ typedef long long int ll;
 typedef vector<ll> vi;
 ll ans=0;
 vi ans_v;
-void dfs(vi tri[], ll *visited, ll init[], ll goal[], ll h, ll odd_opr, ll even_opr, ll index)
+ll visited[100001];
+void dfs(vi tri[], ll visited[], ll init[], ll goal[], ll h, ll odd_opr, ll even_opr, ll index)
 {
     if(h&1)init[index]=(init[index] + odd_opr) % 2 ;
     else init[index]=(init[index] + even_opr) % 2 ;
@@ -31,7 +32,6 @@ int main() {
     vector<ll> tri[n+1];
     ll init[n+1];
     ll goal[n+1];
-    ll visited[n+1]={0};
     f(i,0,n-1)
     {
         cin>>a>>b;
