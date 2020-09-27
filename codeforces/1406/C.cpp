@@ -80,7 +80,7 @@ int main() {
         }
         else
         {
-            cout<<leaf[centroid_1]<<" "<<centroid_1<<"\n";
+            cout<<leaf[centroid_1]<<" "<<par[leaf[centroid_1]]<<"\n";
             cout<<leaf[centroid_1]<<" "<<centroid_2<<"\n";
         }
     }
