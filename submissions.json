@@ -13086,6 +13086,25 @@
     ],
     "timestamp": "Aug/23/2020 00:13"
   },
+  "CF94112843": {
+    "contest_id": 384,
+    "language": "Python 3",
+    "path": "codeforces/384/B.py",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Multitasking",
+    "problem_url": "https://codeforces.com/contest/384/problem/B",
+    "submission_id": "CF94112843",
+    "submission_url": "https://codeforces.com/contest/384/submission/94112843",
+    "tags": [
+      "greedy",
+      "implementation",
+      "sortings",
+      "two pointers",
+      "*1500"
+    ],
+    "timestamp": "Sep/28/2020 15:45"
+  },
   "CF94121033": {
     "contest_id": 1417,
     "language": "Python 3",
