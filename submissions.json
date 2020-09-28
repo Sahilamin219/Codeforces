@@ -13086,6 +13086,22 @@
     ],
     "timestamp": "Aug/23/2020 00:13"
   },
+  "CF94122964": {
+    "contest_id": 384,
+    "language": "Python 3",
+    "path": "codeforces/384/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Coder",
+    "problem_url": "https://codeforces.com/contest/384/problem/A",
+    "submission_id": "CF94122964",
+    "submission_url": "https://codeforces.com/contest/384/submission/94122964",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Sep/28/2020 17:30"
+  },
   "CF94133993": {
     "contest_id": 1417,
     "language": "GNU C++17 (64)",
