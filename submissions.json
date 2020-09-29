@@ -13086,6 +13086,22 @@
     ],
     "timestamp": "Aug/23/2020 00:13"
   },
+  "CF94231880": {
+    "contest_id": 965,
+    "language": "GNU C++17",
+    "path": "codeforces/965/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Battleship",
+    "problem_url": "https://codeforces.com/contest/965/problem/B",
+    "submission_id": "CF94231880",
+    "submission_url": "https://codeforces.com/contest/965/submission/94231880",
+    "tags": [
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Sep/29/2020 22:14"
+  },
   "CF94491044": {
     "contest_id": 1417,
     "language": "GNU C++17",
