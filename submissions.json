@@ -13086,6 +13086,22 @@
     ],
     "timestamp": "Aug/23/2020 00:13"
   },
+  "CF94175655": {
+    "contest_id": 384,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/384/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Milking cows",
+    "problem_url": "https://codeforces.com/contest/384/problem/C",
+    "submission_id": "CF94175655",
+    "submission_url": "https://codeforces.com/contest/384/submission/94175655",
+    "tags": [
+      "greedy",
+      "*1600"
+    ],
+    "timestamp": "Sep/29/2020 09:38"
+  },
   "CF94182256": {
     "contest_id": 264,
     "language": "PyPy 3",
