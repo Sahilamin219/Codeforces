@@ -13086,6 +13086,23 @@
     ],
     "timestamp": "Aug/23/2020 00:13"
   },
+  "CF94537225": {
+    "contest_id": 940,
+    "language": "Python 3",
+    "path": "codeforces/940/B.py",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Our Tanya is Crying Out Loud",
+    "problem_url": "https://codeforces.com/contest/940/problem/B",
+    "submission_id": "CF94537225",
+    "submission_url": "https://codeforces.com/contest/940/submission/94537225",
+    "tags": [
+      "dp",
+      "greedy",
+      "*1400"
+    ],
+    "timestamp": "Oct/03/2020 10:38"
+  },
   "CF94539580": {
     "contest_id": 940,
     "language": "GNU C++17",
