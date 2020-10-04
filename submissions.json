@@ -13086,6 +13086,24 @@
     ],
     "timestamp": "Aug/23/2020 00:13"
   },
+  "CF94641846": {
+    "contest_id": 1426,
+    "language": "PyPy 3",
+    "path": "codeforces/1426/C.py",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Increase and Copy",
+    "problem_url": "https://codeforces.com/contest/1426/problem/C",
+    "submission_id": "CF94641846",
+    "submission_url": "https://codeforces.com/contest/1426/submission/94641846",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Oct/04/2020 17:20"
+  },
   "CF94649228": {
     "contest_id": 268,
     "language": "PyPy 3",
