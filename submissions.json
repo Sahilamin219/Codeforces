@@ -13086,6 +13086,23 @@
     ],
     "timestamp": "Aug/23/2020 00:13"
   },
+  "CF95576865": {
+    "contest_id": 1220,
+    "language": "GNU C++17",
+    "path": "codeforces/1220/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Multiplication Table",
+    "problem_url": "https://codeforces.com/contest/1220/problem/B",
+    "submission_id": "CF95576865",
+    "submission_url": "https://codeforces.com/contest/1220/submission/95576865",
+    "tags": [
+      "math",
+      "number theory",
+      "*1300"
+    ],
+    "timestamp": "Oct/15/2020 16:27"
+  },
   "CF95791181": {
     "contest_id": 1204,
     "language": "GNU C++17",
