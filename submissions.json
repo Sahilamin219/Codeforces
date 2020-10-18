@@ -13086,6 +13086,23 @@
     ],
     "timestamp": "Aug/23/2020 00:13"
   },
+  "CF95837318": {
+    "contest_id": 967,
+    "language": "GNU C++17",
+    "path": "codeforces/967/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Watering System",
+    "problem_url": "https://codeforces.com/contest/967/problem/B",
+    "submission_id": "CF95837318",
+    "submission_url": "https://codeforces.com/contest/967/submission/95837318",
+    "tags": [
+      "math",
+      "sortings",
+      "*1000"
+    ],
+    "timestamp": "Oct/18/2020 09:01"
+  },
   "CF95838358": {
     "contest_id": 1173,
     "language": "GNU C++17",
