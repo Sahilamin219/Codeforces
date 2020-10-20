@@ -13086,6 +13086,23 @@
     ],
     "timestamp": "Aug/23/2020 00:13"
   },
+  "CF96174717": {
+    "contest_id": 1433,
+    "language": "Python 3",
+    "path": "codeforces/1433/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Boring Apartments",
+    "problem_url": "https://codeforces.com/contest/1433/problem/A",
+    "submission_id": "CF96174717",
+    "submission_url": "https://codeforces.com/contest/1433/submission/96174717",
+    "tags": [
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Oct/20/2020 23:16"
+  },
   "CF96174765": {
     "contest_id": 1433,
     "language": "Python 3",
