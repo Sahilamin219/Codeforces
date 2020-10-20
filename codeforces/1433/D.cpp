@@ -89,6 +89,33 @@ bool dfs1(vector<string> v, vvi& vis1, int i, int j)
 	}
 	return false;
 }
+ 
+bool dfs2(vector<string> v, vvi& vis2, int i, int j)
+{
+	// cout<<i<<" "<<j<<endl;
+	if(i>=n or j>=n)return false;
+	if(i<0 or j<0)return false;
+	if(i==n-1 and j==n-2)return true;
+	if(i==n-2 and j==n-1)return true;
+	vis2[i][j]=1;
+	if(i<n-1 and v[i+1][j]=='0' and !vis2[i+1][j])
+	{
+		if(dfs2(v, vis2, i+1, j))return true;
+	}
+	if(j<n-1 and v[i][j+1]=='0' and !vis2[i][j+1])
+	{
+		if(dfs2(v, vis2, i, j+1))return true;
+	}
+	if(i>0 and v[i-1][j]=='0' and !vis2[i-1][j])
+	{
+		if(dfs2(v, vis2, i-1, j))return true;
+	}
+	if(j>0 and v[i][j-1]=='0' and !vis2[i][j-1])
+	{
+		if(dfs2(v, vis2, i, j-1))return true;
+	}
+	return false;
+}
 const int mxn=201;
 int a[mxn][mxn];
 void solve()
@@ -114,7 +141,6 @@ void solve()
 	if(same_bit == a[n-1][n-2])cout<<n<<" "<<n-1<<endl;
 	if(same_bit == a[n-2][n-1])cout<<n-1<<" "<<n<<endl;
 }
-
 int main() 
 	{
 	#ifndef ONLINE_JUDGE
@@ -130,6 +156,49 @@ int main()
 	ll t;cin>>t;
 	while(t--)
 	{
+		string r=R"(
+		ll n;cin>>n;
+		vi v(n);
+		f(i,0,n)cin>>v[i];
+		vector<pair<ll, ll>> p;
+		vector<ll> viste(n,0);
+		ll total_edges=-1, next=0;
+		ll i=0,j=1;
+		while(next<n-1)
+		{
+			// total_edges=next;
+			ll flag=1;
+			if(!viste[i])
+			{
+				ll cnt=0;
+				while(v[i]==v[j])
+				{
+					j++;
+					j=j%n;
+					if(j==i)j++;
+					j=j%n;
+					cnt++;
+					if(cnt>2*n) { flag=0;break; }
+				}
+				viste[i]=1;
+				if(flag) { next++; p.push_back( {i+1, j+1} ); }
+				if(!flag) {break;}
+			}
+			i++;
+			i=i%n;
+		}
+		if(count(all(viste),0) == 1)
+		{
+			cout<<"YES\n";
+			f(i,0,sz(p))
+			{
+				cout<<p[i].first<<" "<<p[i].second<<"\n";
+			}
+		}
+		else
+		{
+			cout<<"NO\n";
+		})";
 		ll n;cin>>n;
 		map<ll, vector<ll>> m;
 		ll maxi=-1,mini=1e9+1;
@@ -190,48 +259,3 @@ int main()
 }
 // To the person reading this, you are beautiful and you look even prettier when you smile.
 // I promise you will have a great day ahead.
-void nothing()
-{
-	ll n;cin>>n;
-	vi v(n);
-	f(i,0,n)cin>>v[i];
-	vector<pair<ll, ll>> p;
-	vector<ll> viste(n,0);
-	ll total_edges=-1, next=0;
-	ll i=0,j=1;
-	while(next<n-1)
-	{
-		// total_edges=next;
-		ll flag=1;
-		if(!viste[i])
-		{
-			ll cnt=0;
-			while(v[i]==v[j])
-			{
-				j++;
-				j=j%n;
-				if(j==i)j++;
-				j=j%n;
-				cnt++;
-				if(cnt>2*n) { flag=0;break; }
-			}
-			viste[i]=1;
-			if(flag) { next++; p.push_back( {i+1, j+1} ); }
-			if(!flag) {break;}
-		}
-		i++;
-		i=i%n;
-	}
-	if(count(all(viste),0) == 1)
-	{
-		cout<<"YES\n";
-		f(i,0,sz(p))
-		{
-			cout<<p[i].first<<" "<<p[i].second<<"\n";
-		}
-	}
-	else
-	{
-		cout<<"NO\n";
-	}
-}
