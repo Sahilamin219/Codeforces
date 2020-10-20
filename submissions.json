@@ -13086,6 +13086,23 @@
     ],
     "timestamp": "Aug/23/2020 00:13"
   },
+  "CF96174798": {
+    "contest_id": 1433,
+    "language": "Python 3",
+    "path": "codeforces/1433/C.py",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Dominant Piranha",
+    "problem_url": "https://codeforces.com/contest/1433/problem/C",
+    "submission_id": "CF96174798",
+    "submission_url": "https://codeforces.com/contest/1433/submission/96174798",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*900"
+    ],
+    "timestamp": "Oct/20/2020 23:17"
+  },
   "CF96179236": {
     "contest_id": 1433,
     "language": "GNU C++17",
