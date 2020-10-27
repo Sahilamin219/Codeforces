@@ -13086,6 +13086,22 @@
     ],
     "timestamp": "Aug/23/2020 00:13"
   },
+  "CF96827431": {
+    "contest_id": 805,
+    "language": "GNU C++17",
+    "path": "codeforces/805/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Minimum number of steps",
+    "problem_url": "https://codeforces.com/contest/805/problem/D",
+    "submission_id": "CF96827431",
+    "submission_url": "https://codeforces.com/contest/805/submission/96827431",
+    "tags": [
+      "combinatorics",
+      "*1400"
+    ],
+    "timestamp": "Oct/27/2020 11:03"
+  },
   "CF97007103": {
     "contest_id": 120,
     "language": "GNU C++17",
