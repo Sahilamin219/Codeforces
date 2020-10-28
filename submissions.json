@@ -13086,6 +13086,24 @@
     ],
     "timestamp": "Aug/23/2020 00:13"
   },
+  "CF97007219": {
+    "contest_id": 120,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/120/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Spiders",
+    "problem_url": "https://codeforces.com/contest/120/problem/F",
+    "submission_id": "CF97007219",
+    "submission_url": "https://codeforces.com/contest/120/submission/97007219",
+    "tags": [
+      "dp",
+      "greedy",
+      "trees",
+      "*1400"
+    ],
+    "timestamp": "Oct/28/2020 19:33"
+  },
   "CF97015113": {
     "contest_id": 733,
     "language": "GNU C++17 (64)",
