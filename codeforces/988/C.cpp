@@ -41,7 +41,62 @@ int32_t main() {
         f(j,0,n)if(s.find(sum-v[j])!=s.end()) { cout<<"YES\n";cout<<m[sum-v[j]].first+1<<" "<<m[sum-v[j]].second+1<<"\n";cout<<i+1<<" "<<j+1<<"\n";goto skip; }
         f(j,0,n)m[sum-v[j]]={i,j},s.insert(sum-v[j]);
     }
+    // auto it=m.begin();
+    // auto next_it=next(it);
+    // for(;next_it!=m.end();it++,next_it++)
+    // {
+    //     // cout<<it->first<<" "<<next_it->first<<endl;
+    //     if(it->first==next_it->first and it->second.first!=next_it->second.first)
+    //     {
+    //         cout<<it->second.first<<" "<<it->second.second<<"\n";
+    //         cout<<next_it->second.first<<" "<<next_it->second.second<<"\n";
+    //         goto skip;
+    //     }
+    // }
     cout<<"NO\n";
     skip:;
     return 0;
 }
+// To heapify a subtree rooted with node i which is 
+// an index in arr[]. n is size of heap 
+void heapify(int arr[], int n, int i) 
+{ 
+    int largest = i; // Initialize largest as root 
+    int l = 2*i + 1; // left = 2*i + 1 
+    int r = 2*i + 2; // right = 2*i + 2 
+  
+    // If left child is larger than root 
+    if (l < n && arr[l] > arr[largest]) 
+        largest = l; 
+  
+    // If right child is larger than largest so far 
+    if (r < n && arr[r] > arr[largest]) 
+        largest = r; 
+  
+    // If largest is not root 
+    if (largest != i) 
+    { 
+        swap(arr[i], arr[largest]); 
+  
+        // Recursively heapify the affected sub-tree 
+        heapify(arr, n, largest); 
+    } 
+} 
+  
+// main function to do heap sort 
+void heapSort(int arr[], int n) 
+{ 
+    // Build heap (rearrange array) 
+    for (int i = n / 2 - 1; i >= 0; i--) 
+        heapify(arr, n, i); 
+  
+    // One by one extract an element from heap 
+    for (int i=n-1; i>0; i--) 
+    { 
+        // Move current root to end 
+        swap(arr[0], arr[i]); 
+  
+        // call max heapify on the reduced heap 
+        heapify(arr, i, 0); 
+    } 
+} 
