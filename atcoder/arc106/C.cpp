@@ -83,3 +83,62 @@ int32_t main() {
     exit(0);
     return 0;   
 }
+void solve_memo() {
+  int n, target;
+  cin >> n >> target;
+  vector<int> x(n);
+  for (int&v : x) cin >> v;
+
+  vector<vector<int>> dp(n+1,vector<int>(target+1,0));
+  dp[0][0] = 1;
+  for (int i = 1; i <= n; i++) {
+    for (int j = 0; j <= target; j++) {
+      dp[i][j] = dp[i-1][j];
+      int left = j-x[i-1];
+      if (left >= 0) (dp[i][j] += dp[i][left]) %= mod;
+    }
+  }
+  cout << dp[n][target] << endl;
+}
+struct Node  
+{ 
+    int data; 
+    struct Node* left; 
+    struct Node* right; 
+}; 
+  
+struct Node* newNode(int data) 
+{ 
+    struct Node* node = (struct Node*) malloc(sizeof(struct Node)); 
+    node->data = data; 
+    node->left = NULL; 
+    node->right = NULL; 
+    return(node); 
+} 
+class Graph{
+    map<int, vi> adjList;
+    void addEdj(int u, int v){
+        adjList[u].pb(v);
+        adjList[v].pb(u);
+    }
+    void dfsHepler(int src, map<int,bool>&visit){
+        visit[src] = true;
+        for(auto a:adjList[src]){
+            if(visit[a] != true)
+            dfsHepler(a, visit);
+        }
+    }
+    int get_comp(int src, int n){
+        map<int , bool> visited;
+        int comp = 1;
+        dfsHepler(src, visited);
+        for( auto k: adjList){
+            int a = k.first;
+            if(!visited[a]){
+                dfsHepler(a, visited);
+                comp++;
+            }
+        }
+        return comp;
+    }
+};
