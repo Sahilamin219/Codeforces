@@ -2410,6 +2410,24 @@
     ],
     "timestamp": "Mar/03/2021 20:51"
   },
+  "CF99517748": {
+    "contest_id": 337,
+    "language": "GNU C++17",
+    "path": "codeforces/337/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Routine Problem",
+    "problem_url": "https://codeforces.com/contest/337/problem/B",
+    "submission_id": "CF99517748",
+    "submission_url": "https://codeforces.com/contest/337/submission/99517748",
+    "tags": [
+      "greedy",
+      "math",
+      "number theory",
+      "*1400"
+    ],
+    "timestamp": "Nov/25/2020 08:32"
+  },
   "CF99533991": {
     "contest_id": 365,
     "language": "GNU C++17",
