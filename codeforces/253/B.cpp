@@ -42,7 +42,6 @@ inline istream &operator>>(istream &is, vector<pair<T1, T2>> &v) {
 	return is;
 }
 const ll mod = 1e9 + 7;
-const ll maxn = ll(1e5+6);
 void showdq(deque<pair<int, int>> d){for(auto x:d){cout<<"{"<<x.first<<","<<x.second<<"}";}cout<<"\n";}
 
 int left_most(const vi &arr, int n, int x)
@@ -74,29 +73,14 @@ int right_most(const vi &arr, int n, int x)
 void solve(){
 	ll n;cin>>n;
 	vi v(n);cin>>v;
-	// sort(all(v));
-	ll ans=ll(1e18), i=0, k=0;
-	// for(i=0;i<n/2;i++)
-	// {
-	// 	ll x = v.end() - upper_bound(all(v), 2*v[i]);
-	// 	ans = min(ans, x+ k);k++;
-	// }
-	// pefix_sum method
-	ll delet[maxn]={0}, cnt[maxn]={0};
+	sort(all(v));
+	ll ans=INT_MAX, i=0, k=0;
 	for(i=0;i<n;i++)
 	{
-		cnt[v[i]]++;
-		// delet[v[i]]++;
-	}	
-	for(i=1;i<maxn;i++)
-	{
-		delet[i] += delet[i-1] + cnt[i];
+		ll x = v.end() - upper_bound(all(v), 2*v[i]);
+		ans = min(ans, x+ k);k++;
 	}
-	for(i=0;i<n;i++)
-	{
-		ans = min( ans , delet[v[i] -1] + max(0ll, delet[maxn-1] - delet[2*v[i]] ) );
-	}
-	cout<<ans<<"\n";
+	cout<<ans;
 }
 
 int main()
