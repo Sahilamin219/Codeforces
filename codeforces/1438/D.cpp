@@ -11,6 +11,7 @@ typedef long double ld;
 #define vl vector<ll>
 #define vi vector<int>
 #define endl '\n'
+
 template <typename T, typename TT>
 inline ostream &operator<<(ostream &os, const pair<T, TT> &t) {
 	return os << t.first << " " << t.second;
@@ -68,7 +69,10 @@ void solve(){
 	cout<<answer.size()<<"\n";
 	for(auto x:answer)cout<<x<<"\n";
 }
-int main(){
+int main()
+{
 	ios_base::sync_with_stdio(false); cin.tie(nullptr);
 	ll T = 1;
-	while (T--) {solve();}return 0;}
+	while (T--) {solve();}
+	return 0;
+}
