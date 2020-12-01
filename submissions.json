@@ -1,4 +1,20 @@
 {
+  "CF100101141": {
+    "contest_id": 1424,
+    "language": "GNU C++17",
+    "path": "codeforces/1424/J.cpp",
+    "platform": "Codeforces",
+    "problem_index": "J",
+    "problem_name": "Lonely Numbers",
+    "problem_url": "https://codeforces.com/contest/1424/problem/J",
+    "submission_id": "CF100101141",
+    "submission_url": "https://codeforces.com/contest/1424/submission/100101141",
+    "tags": [
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Dec/01/2020 15:34"
+  },
   "CF100106663": {
     "contest_id": 1455,
     "language": "Python 3",
