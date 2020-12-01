@@ -1,4 +1,21 @@
 {
+  "CF100106663": {
+    "contest_id": 1455,
+    "language": "Python 3",
+    "path": "codeforces/1455/B.py",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Jumps",
+    "problem_url": "https://codeforces.com/contest/1455/problem/B",
+    "submission_id": "CF100106663",
+    "submission_url": "https://codeforces.com/contest/1455/submission/100106663",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Dec/01/2020 17:02"
+  },
   "CF100107290": {
     "contest_id": 1455,
     "language": "Python 3",
