@@ -67,12 +67,19 @@ void solve(){
 		while(i<n-2)answer.push_back({i,i+1,n}), i+=2;
 	}
 	cout<<answer.size()<<"\n";
-	for(auto x:answer)cout<<x<<"\n";
+	for(auto x:answer)cout<<x[0]<<" "<<x[1]<<" "<<x[2]<<"\n";
 }
+
 int main()
 {
 	ios_base::sync_with_stdio(false); cin.tie(nullptr);
+	#ifndef ONLINE_JUDGE
+	freopen("input.txt", "r", stdin);freopen("output.txt", "w", stdout);
+	#endif
 	ll T = 1;
-	while (T--) {solve();}
+	// cin >> T;
+	while (T--) {
+		solve();
+	}
 	return 0;
 }
