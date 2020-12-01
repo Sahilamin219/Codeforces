@@ -42,23 +42,67 @@ inline istream &operator>>(istream &is, vector<pair<T1, T2>> &v) {
 const ll mod = 1e9 + 7;
 const ll maxn = ll(1e6+6);
 void showdq(deque<pair<int, int>> d){for(auto x:d){cout<<"{"<<x.first<<","<<x.second<<"}";}cout<<"\n";}
-void solve(){
-	ll n,i,j,k;cin>>n;
-	vi v(n), h(n);cin>>v;
-	ll d=0;
-	h[0]=0;
-	h[v[1]-1]=1;
-	for(i=1;i<n;i++)
+vi level(maxn, 0);
+void find(vi tr[], int node, int par)
+{
+	for(int i: tr[node])
 	{
-		if(v[i] < v[i-1]) d++;
-		h[i]=h[d]+1;
+		if(i!=par)
+		{
+			level[i] = level[node] + 1;
+			find(tr, i, node);
+			// cout<<level[i]<<" ";
+		}
 	}
-	cout<<h[n-1]<<"\n";
+}
+void solve(){
+	level.resize(maxn);
+	level[1]=1;
+	ll n,i,j,k;cin>>n;
+	vi v(n);cin>>v;
+	ll d=1;
+	// zab tk asc h same hgt mai dalna chahiye
+	vector<ll> tr[n+1];
+	tr[1].push_back(v[1]);
+	// tr[v[1]].push_back(1);
+	for(i=2;i<n;i++)
+	{
+		if(v[i] > v[i-1]) tr[v[d-1]].push_back(v[i]) ,tr[v[i]].push_back(v[d-1]);
+		else d++, tr[v[d-1]].push_back(v[i]) ,tr[v[i]].push_back(v[d-1]);;
+	}
+	find(tr, 1, -1);
+	cout<<*max_element(all(level)) - 1<<"\n";
+	level.clear();
+	// ll n,i;cin>>n;
+	// vi v(n);cin>>v;
+	// vi a(n);
+	// ll maxi=v[0];
+	// for(i=1;i<n;i++)
+	// {
+	// 	if(maxi > v[i])a[i]=0;
+	// 	else v[i]=1, maxi=v[i];
+	// }
+	// // cout<<a;
+	// // greedy (n^2) ...same as brute forces
+	// //nor dp
 }
 int32_t main()
 {
 	ios_base::sync_with_stdio(false); cin.tie(nullptr);
+	#ifndef ONLINE_JUDGE
+	freopen("input.txt", "r", stdin);freopen("output.txt", "w", stdout);
+	#endif
 	ll T = 1;
 	cin >> T;
 	while (T--)solve();
 }
+/*
+a = [] # the order in which vertices were processed
+q = Queue()
+q.put(1) # place the root at the end of the queue
+while not q.empty():
+    k = q.pop() # retrieve the first vertex from the queue
+    a.append(k) # append k to the end of the sequence in which vertices were visited
+    for y in g[k]: # g[k] is the list of all children of vertex k, sorted in ascending order
+        q.put(y)
+*/
