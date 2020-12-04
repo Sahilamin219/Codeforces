@@ -1,4 +1,21 @@
 {
+  "CF100349591": {
+    "contest_id": 91,
+    "language": "GNU C++17",
+    "path": "codeforces/91/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Newspaper Headline",
+    "problem_url": "https://codeforces.com/contest/91/problem/A",
+    "submission_id": "CF100349591",
+    "submission_url": "https://codeforces.com/contest/91/submission/100349591",
+    "tags": [
+      "greedy",
+      "strings",
+      "*1500"
+    ],
+    "timestamp": "Dec/04/2020 18:24"
+  },
   "CF100379091": {
     "contest_id": 1453,
     "language": "GNU C++17",
