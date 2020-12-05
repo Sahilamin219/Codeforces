@@ -1,4 +1,22 @@
 {
+  "CF100480585": {
+    "contest_id": 553,
+    "language": "Python 3",
+    "path": "codeforces/553/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Kyoya and Colored Balls",
+    "problem_url": "https://codeforces.com/contest/553/problem/A",
+    "submission_id": "CF100480585",
+    "submission_url": "https://codeforces.com/contest/553/submission/100480585",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Dec/06/2020 02:57"
+  },
   "CF100481121": {
     "contest_id": 1453,
     "language": "GNU C++17",
