@@ -1,4 +1,21 @@
 {
+  "CF101767494": {
+    "contest_id": 1099,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/1099/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Sum in the tree",
+    "problem_url": "https://codeforces.com/contest/1099/problem/D",
+    "submission_id": "CF101767494",
+    "submission_url": "https://codeforces.com/contest/1099/submission/101767494",
+    "tags": [
+      "constructive algorithms",
+      "trees",
+      "*1600"
+    ],
+    "timestamp": "Dec/19/2020 17:24"
+  },
   "CF102075024": {
     "contest_id": 520,
     "language": "GNU C++17 (64)",
