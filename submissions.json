@@ -1,4 +1,22 @@
 {
+  "CF103628361": {
+    "contest_id": 1452,
+    "language": "PyPy 3",
+    "path": "codeforces/1452/D.py",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Radio Towers",
+    "problem_url": "https://codeforces.com/contest/1452/problem/D",
+    "submission_id": "CF103628361",
+    "submission_url": "https://codeforces.com/contest/1452/submission/103628361",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Jan/07/2021 17:28"
+  },
   "CF103657872": {
     "contest_id": 1076,
     "language": "GNU C++17 (64)",
