@@ -1,4 +1,21 @@
 {
+  "CF103609059": {
+    "contest_id": 60,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/60/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Serial Time!",
+    "problem_url": "https://codeforces.com/contest/60/problem/B",
+    "submission_id": "CF103609059",
+    "submission_url": "https://codeforces.com/contest/60/submission/103609059",
+    "tags": [
+      "dfs and similar",
+      "dsu",
+      "*1400"
+    ],
+    "timestamp": "Jan/07/2021 13:14"
+  },
   "CF103628361": {
     "contest_id": 1452,
     "language": "PyPy 3",
