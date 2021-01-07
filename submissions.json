@@ -1,4 +1,21 @@
 {
+  "CF103661107": {
+    "contest_id": 1076,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/1076/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Meme Problem",
+    "problem_url": "https://codeforces.com/contest/1076/problem/C",
+    "submission_id": "CF103661107",
+    "submission_url": "https://codeforces.com/contest/1076/submission/103661107",
+    "tags": [
+      "binary search",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Jan/07/2021 23:41"
+  },
   "CF103838278": {
     "contest_id": 1467,
     "language": "GNU C++17 (64)",
