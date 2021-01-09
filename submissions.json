@@ -1,4 +1,22 @@
 {
+  "CF103842325": {
+    "contest_id": 1466,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/1466/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Canine poetry",
+    "problem_url": "https://codeforces.com/contest/1466/problem/C",
+    "submission_id": "CF103842325",
+    "submission_url": "https://codeforces.com/contest/1466/submission/103842325",
+    "tags": [
+      "dp",
+      "greedy",
+      "strings",
+      "*1300"
+    ],
+    "timestamp": "Jan/09/2021 08:58"
+  },
   "CF103857100": {
     "contest_id": 1466,
     "language": "GNU C++17 (64)",
