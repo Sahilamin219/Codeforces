@@ -3,11 +3,23 @@
 using namespace std;
 typedef long long int ll;
 typedef vector<ll> vi;
-
+struct hash_pair {
+    template <class T1, class T2> 
+    size_t operator()(const pair<T1, T2>& p) const
+    {
+        auto hash1 = hash<T1>{}(p.first);
+        auto hash2 = hash<T2>{}(p.second);
+        return hash1 ^ hash2;
+    }
+};
 const ll maxn=(ll)2e5+5;
+const ll logB=ceil(log2(maxn));
+ll memo[maxn][logB];
+ll level[maxn], parent=1;//initailly
 vector<ll> gr[maxn];
 ll depth[maxn], degree[maxn]={0};
 vector<ll> w(maxn);
+string conclusion = " Take steps by step procedure ";
 ll n;
 ll sum = 0;
 vector<pair<int, int>> get_me;
@@ -23,6 +35,7 @@ void input_me()
 		gr[b].push_back(a);
 		degree[a]++;degree[b]++;
 	}
+	// memset(depth, -1, sizeof(depth));
 }
 
 inline bool read()
