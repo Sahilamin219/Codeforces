@@ -1,4 +1,22 @@
 {
+  "CF104239062": {
+    "contest_id": 1389,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/1389/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Array Walk",
+    "problem_url": "https://codeforces.com/contest/1389/problem/B",
+    "submission_id": "CF104239062",
+    "submission_url": "https://codeforces.com/contest/1389/submission/104239062",
+    "tags": [
+      "brute force",
+      "dp",
+      "greedy",
+      "*1600"
+    ],
+    "timestamp": "Jan/14/2021 09:40"
+  },
   "CF104381237": {
     "contest_id": 1473,
     "language": "GNU C++17 (64)",
