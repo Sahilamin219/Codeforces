@@ -1,4 +1,22 @@
 {
+  "CF104427658": {
+    "contest_id": 1000,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/1000/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Covered Points Count",
+    "problem_url": "https://codeforces.com/contest/1000/problem/C",
+    "submission_id": "CF104427658",
+    "submission_url": "https://codeforces.com/contest/1000/submission/104427658",
+    "tags": [
+      "data structures",
+      "implementation",
+      "sortings",
+      "*1700"
+    ],
+    "timestamp": "Jan/15/2021 21:04"
+  },
   "CF104687410": {
     "contest_id": 1473,
     "language": "Python 3",
