@@ -1,4 +1,23 @@
 {
+  "CF104687410": {
+    "contest_id": 1473,
+    "language": "Python 3",
+    "path": "codeforces/1473/D.py",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Program",
+    "problem_url": "https://codeforces.com/contest/1473/problem/D",
+    "submission_id": "CF104687410",
+    "submission_url": "https://codeforces.com/contest/1473/submission/104687410",
+    "tags": [
+      "data structures",
+      "dp",
+      "implementation",
+      "strings",
+      "*1700"
+    ],
+    "timestamp": "Jan/18/2021 18:44"
+  },
   "CF104689469": {
     "contest_id": 1405,
     "language": "GNU C++17",
