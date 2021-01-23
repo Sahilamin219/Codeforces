@@ -1,4 +1,21 @@
 {
+  "CF105153705": {
+    "contest_id": 1472,
+    "language": "GNU C++11",
+    "path": "codeforces/1472/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Long Jumps",
+    "problem_url": "https://codeforces.com/contest/1472/problem/C",
+    "submission_id": "CF105153705",
+    "submission_url": "https://codeforces.com/contest/1472/submission/105153705",
+    "tags": [
+      "dp",
+      "graphs",
+      "*1100"
+    ],
+    "timestamp": "Jan/23/2021 18:49"
+  },
   "CF105179096": {
     "contest_id": 1472,
     "language": "GNU C++11",
