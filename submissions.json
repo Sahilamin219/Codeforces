@@ -1,4 +1,25 @@
 {
+  "CF106445094": {
+    "contest_id": 500,
+    "language": "GNU C++17",
+    "path": "codeforces/500/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "New Year Permutation",
+    "problem_url": "https://codeforces.com/contest/500/problem/B",
+    "submission_id": "CF106445094",
+    "submission_url": "https://codeforces.com/contest/500/submission/106445094",
+    "tags": [
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "greedy",
+      "math",
+      "sortings",
+      "*1600"
+    ],
+    "timestamp": "Feb/04/2021 16:25"
+  },
   "CF106455177": {
     "contest_id": 1327,
     "language": "PyPy 3",
