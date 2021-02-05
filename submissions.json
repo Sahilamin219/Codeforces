@@ -1,4 +1,23 @@
 {
+  "CF106530851": {
+    "contest_id": 161,
+    "language": "GNU C++17",
+    "path": "codeforces/161/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Dress'em in Vests!",
+    "problem_url": "https://codeforces.com/contest/161/problem/A",
+    "submission_id": "CF106530851",
+    "submission_url": "https://codeforces.com/contest/161/submission/106530851",
+    "tags": [
+      "binary search",
+      "brute force",
+      "greedy",
+      "two pointers",
+      "*1300"
+    ],
+    "timestamp": "Feb/05/2021 18:08"
+  },
   "CF106531682": {
     "contest_id": 161,
     "language": "GNU C++17",

@@ -70,19 +70,28 @@ void solve_me()
   for(auto &x: b)cin>>x;
   int ans=0;
   vector<pair<int, int>> vp;
-  int Last=0;
+  // int index=0;
+  // vector<int> visited
+  int prev=-1, pos=0;
   for(int i=0;i<n;i++)
   {
-    int Value = a[i]-x;
-    int pos = lower_bound( b.begin() + Last, b.end() , Value) - b.begin();
+    // if(index >= m)break;
+    int element = a[i]-x;
+    // element = max(element, prev);
+    while(pos < m and b[pos] < a[i]-x)pos++;
+    // int pos = lower_bound(all(b), element) - b.begin();
+    // while(prev >= pos)pos++;
+    // cout<<pos<<" ";
     if(pos < m)
     {
       if(b[pos] <= a[i]+y)
       {
         ans++;
-        vp.push_back({i+1, pos+1});Last = pos+1;
+        vp.push_back({i+1, pos+1});pos++;
+        // if(pos < m-1 )prev=b[++pos];
+        // else break;
+        // cout<<pos<<" ";
       }
-      else Last=pos;
     }
     else break;
   }
