@@ -1,4 +1,21 @@
 {
+  "CF106981293": {
+    "contest_id": 1009,
+    "language": "Python 3",
+    "path": "codeforces/1009/B.py",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Minimum Ternary String",
+    "problem_url": "https://codeforces.com/contest/1009/problem/B",
+    "submission_id": "CF106981293",
+    "submission_url": "https://codeforces.com/contest/1009/submission/106981293",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Feb/09/2021 17:55"
+  },
   "CF106994247": {
     "contest_id": 1480,
     "language": "Python 3",
