@@ -97,28 +97,27 @@ void solve_me()
   vector<vector<int>> Ans=sol.reconstructQueue(V);
   for(auto x: Ans){for(auto y:x){cerr<<y<<",";}cerr<<" ";}
   cin>>n;
-  vector<pair<int, int>> v(n);
-  // vi v(n);
+  // vector<pair<int, int>> v(n);
+  vi v(n);
   for(int i=0, vl;i<n;i++)
   {
-    cin>>vl;
-    v[i] = { vl , i};
-    // cin>>v[i];
+    // cin>>vl;
+    // v[i] = { i , vl};
+    cin>>v[i];
   }
-  sort(all(v));
+  // sort(all(v));
   vi ans(n, -1);
-  int dp=-1;
+  vi pre(n);
+  pre[n-1]=v[n-1];
+  for(int i=n-2;i>=0;i--)
+  {
+    pre[i] = min(pre[i+1], v[i]);
+  }
   for(int i=0;i<n;i++)
   {
-    if( v[i].second > dp)
-    {
-      dp=v[i].second;
-      ans[v[i].second]=-1;
-    }
-    else
-    {
-      ans[v[i].second]=dp-v[i].second-1;
-    }
+    int in=lower_bound(pre.begin() + i + 1, pre.end(), v[i]) - ( pre.begin() + i ) - 1;
+    in--;
+    ans[i]=max(in, -1ll);
   }
   // for(int i=0;i<n;i++)
   // {
