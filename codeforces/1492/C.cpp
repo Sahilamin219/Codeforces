@@ -28,10 +28,8 @@ int fast_exp(int base, int expo) {
   while(expo>0) {
     if(expo&1) res=(res*base)%mod;
     base=(base*base)%mod;
-    expo>>=1;
-  }
-  return res;
-}
+    expo>>=1;}
+  return res;}
  
 int modinv(int a){return takemod(fast_exp(takemod(a), mod-2));}
 int mint(int x, int y, int z) 
@@ -42,37 +40,32 @@ int mint(int x, int y, int z)
 void solve_me()
 {
   int n, m;cin>>n>>m;
-  string a, b;cin>>a>>b;
-  vi arr1(m+1, -1), arr2(m+1, -1);
+  string s,t;cin>>s>>t;
+  int a[m+1]={-1}, b[m+1]={-1};
   int j=0;
   for(int i=0;i<n;i++)
   {
-    if(j<m and a[i]==b[j])
+    if(j<m and s[i]==t[j])
     {
-      arr1[j]=i;
+      a[j]=i;//
       j++;
     }
   }
   j=m-1;
   for(int i=n-1;i>=0;i--)
   {
-    if(j>=0 and a[i]==b[j])
+    if(j>=0 and s[i] == t[j])
     {
-      arr2[j]=i;
+      b[j]=i;//
       j--;
     }
   }
   int ans=1;
-  // for(auto x:arr1){cout<<x<<" ";}cout<<"\n";
-  // for(auto x:arr2){cout<<x<<" ";}cout<<"\n";
   for(int i=0;i<m-1;i++)
   {
-    if(arr2[i+1]!=-1 and arr1[i]!=-1)
-    {
-      ans=max( ans, arr2[i+1] - arr1[i] );
-    }
+    if(b[i+1]!=-1 and a[i]!=-1)ans=max(ans, b[i+1] - a[i]);
   }
-  cout<<ans;
+  cout<<ans<<"\n";
   return;
 }
 int32_t main(){
