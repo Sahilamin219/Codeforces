@@ -130,31 +130,38 @@ int fast_exp(int base, int expo) {
 }
  
 int modinv(int a){return takemod(fast_exp(takemod(a), mod-2));}
-inline int in(){int x;scanf("%lld",&x);return x;}
+
 void solve_me()
 {
   int n;cin>>n;
   map<int, int> m;
-  for(int i=0;i<n;i++){
-    int x;cin>>x;
-    m[x]++;
+  for(int i=0, vl;i<n;i++){
+    cin>>vl;
+    m[vl]++;
   }
-  vector<int> fr;
-  for(auto x: m){
-    fr.push_back(x.second);
+  int mini=INT_MAX;
+  int maxi=INT_MIN;
+  for(auto i:m){
+    mini=min(mini, i.second);
+    maxi=max(maxi, i.second);
   }
   int ans=n;
-  sort(all(fr));
-  int total=n, smaller=0;
-  int current=0;
-  int siz=fr.size();
-  for(int c:fr){
-    ans = min( ans, smaller + (total - (siz - current)*c));
-    current++;
-    smaller += c;
-    total -= c;
+  int x=0;
+  for(int i=mini;i<=maxi;i++){
+    int cnt=x;
+    auto it=m.begin();
+    while(it!=m.end()){
+      cnt += it->second - i;
+      auto It=it;
+      it++;
+      if(It->second == i){
+        x += It->second;
+        m.erase(It);
+      }
+    }
+    ans=min(ans, cnt);
   }
-  cout<<ans<<"\n";
+  cout<<ans<<endl;
   return;
 }
 
