@@ -1,6 +1,4 @@
 #include "bits/stdc++.h"
-#include <string_view>
-
 #define int long long
 #define all(x) begin(x), end(x)
 #define sz(x) (int)(x).size()
@@ -34,7 +32,6 @@ struct hash_pair {
         return (hash1 ^ hash2);
     }
 };
-
 bool sortbysec(const pair<int,int> &a, const pair<int,int> &b){
     if(a.second==b.second){return (a.first > b.first);}
     return a.second>b.second;
@@ -48,13 +45,6 @@ struct less_second {
     bool operator ()(type const& a, type const& b) const {
         return a.second < b.second;
     }
-};
-template<typename T>
-using min_heap = priority_queue<T, vector<T>, greater<T>>;
-struct cmp {
-  bool operator() (pair<int, int> a, pair<int, int> b) {
-     return a.first+a.second > b.first+b.second;
-  }
 };
 const int maxn = (2e3 + 5);
 bool bin_search(int x[], int n, int k) {
@@ -111,26 +101,6 @@ void quickSort(vi &v, int low, int high){
   if (low<j) quickSort(v, low, j);
   if (i<high) quickSort(v, i, high);
 }
-
-int X[4]={1,0,-1,0};
-int Y[4]={0,1,0,-1};
-const int cons=501;
-#define mod 1000000009
-int takemod(int a){return ((a%mod)+mod)%mod;}
-
-
-int fast_exp(int base, int expo) {
-  int res=1;
-  while(expo>0) {
-    if(expo&1) res=(res*base)%mod;
-    base=(base*base)%mod;
-    expo>>=1;
-  }
-  return res;
-}
- 
-int modinv(int a){return takemod(fast_exp(takemod(a), mod-2));}
-
 void solve_me()
 {
   int n;cin>>n;
@@ -140,23 +110,20 @@ void solve_me()
     cin>>vl;
     m[vl]++;
   }
-  vi cnt, pre = {0};
   for(auto It:m){
-    cnt.push_back(It.second);;
+    freq[1]++;
+    freq[It.second + 1]--;
   }
-  sort(all(cnt));
-  for(auto x:cnt){
-    pre.push_back( pre.back() + x);
+  for(int i=1;i<=n;i++){
+    freq[i] += freq[i-1];
   }
-  int ans=n-1;
-  for(int i=1;i<=cnt.back();i++){
-    int Index = lower_bound( all(cnt), i) - cnt.begin();
-    ans = min(ans, n- i*( (int)cnt.size() - Index ));
+  int ans=n;
+  for(int i=1;i<=n;i++){
+    ans = min(ans, n - freq[i]*i);  
   }
   cout<<ans<<"\n";
   return;
 }
-
 int32_t main()
 {
 	ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
@@ -164,8 +131,8 @@ int32_t main()
 	freopen("input.txt", "r", stdin);freopen("output.txt", "w", stdout);
 	int tt = clock();
 	#endif
-  int TestMe=1;cin>>TestMe;
-  while(TestMe--)solve_me();
+  int TC=1;cin>>TC;
+  while(TC--)solve_me();
   exit(0);
 	#ifndef ONLINE_JUDGE
 		cerr << "TIME = " << clock() - tt << endl;
@@ -355,36 +322,3 @@ float get_median(int size) {
 //     printf("%d\n", alarm_count);
 //     return 0;
 // }
-
-
-
-// https://app.pluralsight.com/course-player?clipId=db4472d5-8c3b-416a-857b-f483e8fd9d82
-// Approach 1: Linear Scan //         // cyclic sort - place all numbers to match their indexes 
-// http://www.ijesrt.com/issues%20pdf%20file/Archives-2014/March-2014/86.pdf
-// https://www.eetimes.com/power-dissipation-in-portables-design-considerations-using-low-power-cmos-ics/
-
-// https://recommender.codedrills.io/recommendations/a84cb4e1-1d54-4e0f-8f64-de726b77d05b
-// https://recommender.codedrills.io/recommendations/ebfb9d6e-fbd3-434e-89fb-8070b449c9ed
-int minSwapToMakeArraySame(int a[], int b[], int n)
-{
-    // map to store position of elements in array B
-    // we basically store element to index mapping.
-    map<int, int> mp;
-    for (int i = 0; i < n; i++)
-        mp[b[i]] = i;
- 
-    // now we're storing position of array A elements
-    // in array B.
-    for (int i = 0; i < n; i++)
-        b[i] = mp[a[i]];
- 
-    /* We can uncomment this section to print modified
-      b array
-    for (int i = 0; i < N; i++)
-        cout << b[i] << " ";
-    cout << endl; */
- 
-    // returing minimum swap for sorting in modified
-    // array B as final answer
-    return 1;//minSwapsToSort(b, n);
-}
