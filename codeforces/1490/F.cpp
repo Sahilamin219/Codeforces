@@ -126,62 +126,8 @@ void solve_me()
 }
 int32_t main()
 {
-	ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
-	#ifndef ONLINE_JUDGE
-	freopen("input.txt", "r", stdin);freopen("output.txt", "w", stdout);
-	int tt = clock();
-	#endif
-  int TC=1;cin>>TC;
-  while(TC--)solve_me();
-  exit(0);
-	#ifndef ONLINE_JUDGE
-		cerr << "TIME = " << clock() - tt << endl;
-		tt = clock();
-	#endif
+    ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+    int TC=1;cin>>TC;
+    while(TC--)solve_me();
 	return 0;
-	// s.erase(i,2);
 }
-// https://codeforces.com/contest/977/problem/D
-// https://codeforces.com/contest/977/problem/E
-// ---https://codeforces.com/contest/604/problem/C
-// ---https://codeforces.com/contest/490/problem/B
-// https://codeforces.com/gym/102697/problem/175
-
-void Evang()
-{
-  string s;
-  cin >> s;
-  bool a = false;
-  again:
-  while (s.size()) {
-    for (unsigned long i = 0; i < s.size() - 1; i++)
-      if (s[i] == s[i + 1]) {
-        s.erase(s.begin() + i + 1);
-        s.erase(s.begin() + i);
-        a = !a;
-        goto again;
-      }
-    break;
-  }
-  if (a)
-    cout << "Yes\n";
-  else
-    cout << "No";
-}
-// brute forces -> peffix sum, suffix sum, difference array
-// greedy ... cycle ..use modulo
-// stack ... first, last, size left
-// have string idea of binary search 
-// dp always reaches n*n ..so make states more precise 
-// to lead towards k*n ... 
-// ***pointers***
-
-// 763. Partition Labels
-// greedly maximaxe j at every index and when i==j push it 
-// https://learning.tcsionhub.in/hub/national-qualifier-test/
-// https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes
-
-// When you want to succeed as bad as you want to breathe, only then you’ll Be Successful!
-// No Matter,How Fast You Are Driving If You Are Driving in a Wrong Direction You Will Never Reach Your Destination
-// When failures hit you, you hit the failures back with Bounce Back!
-// When you face failures, Don’t change your goal, Change your strategy!
