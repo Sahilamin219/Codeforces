@@ -134,34 +134,26 @@ int modinv(int a){return takemod(fast_exp(takemod(a), mod-2));}
 void solve_me()
 {
   int n;cin>>n;
+  vi freq(n+2, 0);
   map<int, int> m;
-  for(int i=0, vl;i<n;i++){
+  for(int i=0,vl;i<n;i++ ){
     cin>>vl;
     m[vl]++;
   }
-  int mini=INT_MAX;
-  int maxi=INT_MIN;
-  for(auto i:m){
-    mini=min(mini, i.second);
-    maxi=max(maxi, i.second);
+  vi cnt, pre = {0};
+  for(auto It:m){
+    cnt.push_back(It.second);;
   }
-  int ans=n;
-  int x=0;
-  for(int i=mini;i<=maxi;i++){
-    int cnt=x;
-    auto it=m.begin();
-    while(it!=m.end()){
-      cnt += it->second - i;
-      auto It=it;
-      it++;
-      if(It->second == i){
-        x += It->second;
-        m.erase(It);
-      }
-    }
-    ans=min(ans, cnt);
+  sort(all(cnt));
+  for(auto x:cnt){
+    pre.push_back( pre.back() + x);
   }
-  cout<<ans<<endl;
+  int ans=n-1;
+  for(int i=1;i<=cnt.back();i++){
+    int Index = lower_bound( all(cnt), i) - cnt.begin();
+    ans = min(ans, n- i*( (int)cnt.size() - Index ));
+  }
+  cout<<ans<<"\n";
   return;
 }
 
