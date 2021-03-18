@@ -6,47 +6,45 @@ typedef vector<int> vi;
 const int maxn = 1e7+3;
 vi StorePrimes(maxn, 0);
 void GetPrimes(){
-  for(int i=2;i<maxn;i++){
-    if(StorePrimes[i])continue;
-    StorePrimes[i]=i;
-    if(i*i >= maxn)continue;
-    for(int j=i*i;j<maxn;j+=i){
-      if(!StorePrimes[j]){
-        StorePrimes[j]=i;
-      }
+    for(int i = 2; i < maxn; ++i){
+        if(StorePrimes[i]){ continue; }
+        StorePrimes[i] = i;
+        if(i * 1ll * i >= maxn){ continue; }
+        for(int j = i * i; j < maxn; j += i){
+            if(!StorePrimes[j]){ StorePrimes[j] = i; }
+        }
     }
-  }
 }
+ 
 void solve_me(){
-  int n, k;cin>>n>>k;
-  vi v(n);
-  for(auto& i:v)cin>>i;
-  for(int& u:v){
-    int a=1, count=0;
-    while(StorePrimes[u]){
-      int p=StorePrimes[u];
-      count=0;
-      while(u%p==0){
-        u/=p;
-        count++;
-      }
-      if(count%2){
-        a=a*p;
-      }
+    int n, k; cin >> n >> k;
+    int a[n];
+    for(int& u : a){ cin >> u; }
+    for(int& u : a){
+        int v = 1;
+        while(StorePrimes[u]){
+            int d = StorePrimes[u];
+            int cnt = 0;
+            while(u % d == 0){
+                u /= d;
+                ++cnt;
+            }
+            if(cnt & 1){
+                v *= d;
+            }
+        }
+        u = v;
     }
-    u=a;
-  }
-  set<int> seen;
-  int ans=1;
-  for(int u:v){
-    if( seen.find(u)!=seen.end()){
-      ans++;
-      seen.clear();
+    set< int > seen;
+    int ans = 1;
+    for(int u : a){
+        if(seen.find(u) != seen.end()){
+            ++ans;
+            seen.clear();
+        }
+        seen.insert(u);
     }
-    seen.insert(u);
-  }
-  cout<<ans<<"\n";
-  return;
+    cout << ans << '\n';
 }
 
 int32_t main(){
