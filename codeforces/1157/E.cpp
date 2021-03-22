@@ -27,8 +27,16 @@ void solve()
 
 int32_t main(){
   ios_base::sync_with_stdio(false); cin.tie(nullptr);
+  #ifndef ONLINE_JUDGE
+  freopen("input.txt", "r", stdin);
+  freopen("output.txt", "w", stdout);
+  #endif
+  // cout << fixed << setprecision(18);
   int TC=1;//cin>>TC;
   while(TC--){
     solve();
   }
 }
+// https://codeforces.com/contest/582/problem/A
+// https://codeforces.com/contest/977/problem/F
+// https://codeforces.com/contest/1353/problem/E
