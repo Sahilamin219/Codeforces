@@ -3662,6 +3662,22 @@
     ],
     "timestamp": "Mar/22/2021 15:34"
   },
+  "CF110953913": {
+    "contest_id": 1157,
+    "language": "GNU C++14",
+    "path": "codeforces/1157/C2.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C2",
+    "problem_name": "Increasing Subsequence (hard version)",
+    "problem_url": "https://codeforces.com/contest/1157/problem/C2",
+    "submission_id": "CF110953913",
+    "submission_url": "https://codeforces.com/contest/1157/submission/110953913",
+    "tags": [
+      "greedy",
+      "*1700"
+    ],
+    "timestamp": "Mar/25/2021 13:13"
+  },
   "CF53839645": {
     "contest_id": 939,
     "language": "GNU C++14",
