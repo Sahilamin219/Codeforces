@@ -3728,6 +3728,25 @@
     ],
     "timestamp": "Mar/25/2021 15:21"
   },
+  "CF111137555": {
+    "contest_id": 1506,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/1506/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Restoring the Permutation",
+    "problem_url": "https://codeforces.com/contest/1506/problem/E",
+    "submission_id": "CF111137555",
+    "submission_url": "https://codeforces.com/contest/1506/submission/111137555",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "dsu",
+      "greedy",
+      "*1500"
+    ],
+    "timestamp": "Mar/26/2021 18:49"
+  },
   "CF53839645": {
     "contest_id": 939,
     "language": "GNU C++14",
