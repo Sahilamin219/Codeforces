@@ -13,6 +13,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+570 | [D - Min Cost String](https://codeforces.com/contest/1511/problem/D) | [GNU C++14](./codeforces/1511/D.cpp) | `brute force` `constructive algorithms` `graphs` `greedy` `strings` `*1600` | Apr/14/2021 11:06 | 
 569 | [L - Deque](https://atcoder.jp/contests/dp/tasks/dp_l) | [C++ (GCC 9.2.1)](./atcoder/dp/L.cpp) | `AtCoder` `*100` | Apr/05/2021 15:14 | 
 568 | [C - Beautiful Regional Contest](https://codeforces.com/contest/1265/problem/C) | [GNU C++17 (64)](./codeforces/1265/C.cpp) | `greedy` `implementation` `*1500` | Apr/04/2021 00:09 | 
 567 | [B - Flip the Bits](https://codeforces.com/contest/1504/problem/B) | [GNU C++17 (64)](./codeforces/1504/B.cpp) | `constructive algorithms` `greedy` `implementation` `math` `*1200` | Apr/04/2021 00:06 | 
