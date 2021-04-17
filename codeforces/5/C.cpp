@@ -61,3 +61,8 @@ int32_t main(){
   int TC=1;//cin>>TC;
   while(TC--)solve();
 }
+// https://codeforces.com/contest/1353/problem/E
+// https://codeforces.com/contest/977/problem/E
+// https://codeforces.com/contest/977/problem/D
+// https://codeforces.com/contest/1175/problem/C
+// https://www.cnblogs.com/grandyang/p/4606334.html
