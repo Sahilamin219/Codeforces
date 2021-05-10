@@ -4390,6 +4390,24 @@
     ],
     "timestamp": "May/06/2021 15:52"
   },
+  "CF115843766": {
+    "contest_id": 934,
+    "language": "GNU C++14",
+    "path": "codeforces/934/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "A Twisty Movement",
+    "problem_url": "https://codeforces.com/contest/934/problem/C",
+    "submission_id": "CF115843766",
+    "submission_url": "https://codeforces.com/contest/934/submission/115843766",
+    "tags": [
+      "brute force",
+      "dp",
+      "implementation",
+      "*1800"
+    ],
+    "timestamp": "May/10/2021 13:33"
+  },
   "CF115934841": {
     "contest_id": 1521,
     "language": "GNU C++17",
