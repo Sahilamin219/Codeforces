@@ -13,7 +13,8 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-589 | [B - Working out](https://codeforces.com/contest/429/problem/B) | [GNU C++17](./codeforces/429/B.cpp) | `dp` `*1600` | May/11/2021 20:15 | 
+590 | [B - Working out](https://codeforces.com/contest/429/problem/B) | [GNU C++17](./codeforces/429/B.cpp) | `dp` `*1600` | May/11/2021 20:15 | 
+589 | [C - Baby Ehab Partitions Again](https://codeforces.com/contest/1516/problem/C) | [GNU C++17](./codeforces/1516/C.cpp) | `bitmasks` `constructive algorithms` `dp` `math` `*1700` | May/11/2021 17:31 | 
 588 | [D - Same Differences](https://codeforces.com/contest/1520/problem/D) | [GNU C++14](./codeforces/1520/D.cpp) | `data structures` `hashing` `math` `*1200` | May/06/2021 15:52 | 
 587 | [E - Arranging The Sheep](https://codeforces.com/contest/1520/problem/E) | [GNU C++14](./codeforces/1520/E.cpp) | `greedy` `math` `*1400` | May/06/2021 15:49 | 
 586 | [C - Fillomino 2](https://codeforces.com/contest/1517/problem/C) | [GNU C++14](./codeforces/1517/C.cpp) | `constructive algorithms` `dfs and similar` `greedy` `implementation` `*1400` | Apr/25/2021 14:01 | 
