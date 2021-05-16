@@ -4585,6 +4585,23 @@
     ],
     "timestamp": "May/11/2021 20:15"
   },
+  "CF116391553": {
+    "contest_id": 1525,
+    "language": "GNU C++17",
+    "path": "codeforces/1525/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Armchairs",
+    "problem_url": "https://codeforces.com/contest/1525/problem/D",
+    "submission_id": "CF116391553",
+    "submission_url": "https://codeforces.com/contest/1525/submission/116391553",
+    "tags": [
+      "brute force",
+      "dp",
+      "greedy"
+    ],
+    "timestamp": "May/16/2021 16:11"
+  },
   "CF53839645": {
     "contest_id": 939,
     "language": "GNU C++14",
