@@ -27,15 +27,7 @@ int main()
  
 	for (int i = 0; i < n; i++)
 	{
-		if (s[i] == '?'){
-		  if (p < kol) { 
-		      
-		      s[i] = '('; 
-		      p++; 
-		      
-		  } 
-		  else s[i] = ')';  
-		} 
+		if (s[i] == '?') if (p < kol) { s[i] = '('; p++; } else s[i] = ')';
 		if (s[i] == '(') sum++; else sum--;
 		if (sum <= 0 && i!=n-1)
 		{
