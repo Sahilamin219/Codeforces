@@ -133,7 +133,9 @@ void solve(){
   unordered_map<int, int> m;
   m[*v.begin()]++;
   v.erase(*v.begin());
+  int test=6;
   while(v.size()){
+    // if(test-- <= 0)break;
     auto it=v.begin();
     int g;
     skip:;
