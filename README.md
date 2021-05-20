@@ -13,7 +13,8 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-614 | [D - Divide by three, multiply by two](https://codeforces.com/contest/977/problem/D) | [GNU C++17 (64)](./codeforces/977/D.cpp) | `dfs and similar` `math` `sortings` `*1400` | May/21/2021 00:07 | 
+615 | [D - Divide by three, multiply by two](https://codeforces.com/contest/977/problem/D) | [GNU C++17 (64)](./codeforces/977/D.cpp) | `dfs and similar` `math` `sortings` `*1400` | May/21/2021 00:07 | 
+614 | [B - Serval and Toy Bricks](https://codeforces.com/contest/1153/problem/B) | [GNU C++17 (64)](./codeforces/1153/B.cpp) | `constructive algorithms` `greedy` `*1200` | May/20/2021 18:37 | 
 613 | [C - Serval and Parenthesis Sequence](https://codeforces.com/contest/1153/problem/C) | [GNU C++17 (64)](./codeforces/1153/C.cpp) | `greedy` `strings` `*1700` | May/18/2021 22:08 | 
 612 | [A - Do Not Be Distracted!](https://codeforces.com/contest/1520/problem/A) | [GNU C++17 (64)](./codeforces/1520/A.cpp) | `brute force` `implementation` `*800` | May/18/2021 21:13 | 
 611 | [B - Ordinary Numbers](https://codeforces.com/contest/1520/problem/B) | [GNU C++17 (64)](./codeforces/1520/B.cpp) | `brute force` `math` `number theory` `*800` | May/18/2021 21:08 | 
