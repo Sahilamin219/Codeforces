@@ -1,60 +1,40 @@
-#pragma GCC optimize("O2")
-#include<bits/stdc++.h> 
-#include<iostream>
+#include "bits/stdc++.h"
+#define int long long
+#define all(x) begin(x), end(x)
+#define rall(x) rbegin(x), rend(x)
 using namespace std;
-#define int long long int
-#define ll long long int
-#define ld long double
-#define all(x) (x).begin(), (x).end()
-#define fi first
-#define se second
-#define endl '\n'
-// __builtin_popcount(x)
-#define sp setprecision(15)<<fixed
-#define yes cout<<"Yes"<<endl
-#define no cout<<"No"<<endl
-const int mod=1000000007;
-const int INF64=mod*mod+1;
+const double DINF = numeric_limits<double>::infinity();
+long long maximum=numeric_limits<int>:: max();
+long long minimum=numeric_limits<int>:: min();
+const int mod = 1e9 + 7;
+#define INF 0x3f3f3f3f;
+string gg="abcdefghijklmnopqrstuvwxyz";//"AOYEUI";
+const int maxn = (2e3 + 5);
+#define MAX 200001
+#define negmod(X,Y) X % Y + (X % Y < 0 ? Y : 0)
+#define lb(c, x) distance((c).begin(), lower_bound(all(c), (x)))
+#define ub(c, x) distance((c).begin(), upper_bound(all(c), (x)))
 
-
-
-void solve(){
-	int n;
-	cin>>n;
-
-	vector<int> a(n+1);
-	for(int i=1;i<=n;i++)
-		cin>>a[i];
-
-	vector<vector<int>> dp(n+1,vector<int> (n+1,-INF64));
-	for(int i=0;i<=n;i++)
-		dp[i][0]=0;
-
-	int ans=0;
-	for(int i=1;i<=n;i++){
-		for(int j=1;j<=n;j++){
-			dp[i][j]=dp[i-1][j];
-			if(dp[i-1][j-1]+a[i]>=0)
-				dp[i][j]=max(dp[i][j],dp[i-1][j-1]+a[i]);
-
-			if(dp[i][j]>=0)
-				ans=max(ans,j);
+int32_t main()
+{
+	ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+	#ifndef ONLINE_JUDGE
+	freopen("input.txt", "r", stdin);freopen("output.txt", "w", stdout);
+	#endif
+	int n; cin >> n;
+	priority_queue<long long, vector<long long>, greater<long long> > pq;
+	long long S = 0;
+	
+	for(int i = 1;i <= n;i++){
+		long long x; cin >> x;
+		S += x;
+		pq.push(x);
+		
+		while(S < 0){
+			S -= pq.top();
+			pq.pop();
 		}
 	}
-    // DP STORES MAXIMUM HEALTH ON iTH POSITION
-	cout<<ans<<endl;
-}
-
-int32_t main(){
 	
-	ios_base::sync_with_stdio(false);
-	cin.tie(0);cout.tie(0);
-
-	int T=1;
-	// cin>>T;
-	for(int i=1;i<=T;i++){
-		// cout<<"Case #"<<i<<": ";
-		solve();
-	}
-	cerr<<"Time : "<<1000*((double)clock())/(double)CLOCKS_PER_SEC<<"ms\n";
+	cout << (int) pq.size();
 }
