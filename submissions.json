@@ -5232,6 +5232,23 @@
     ],
     "timestamp": "May/28/2021 23:34"
   },
+  "CF118958418": {
+    "contest_id": 189,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/189/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Counting Rhombi",
+    "problem_url": "https://codeforces.com/contest/189/problem/B",
+    "submission_id": "CF118958418",
+    "submission_url": "https://codeforces.com/contest/189/submission/118958418",
+    "tags": [
+      "brute force",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Jun/10/2021 17:03"
+  },
   "CF118962298": {
     "contest_id": 1102,
     "language": "GNU C++17 (64)",
