@@ -5232,6 +5232,22 @@
     ],
     "timestamp": "May/28/2021 23:34"
   },
+  "CF118967546": {
+    "contest_id": 48,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/48/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Permutations",
+    "problem_url": "https://codeforces.com/contest/48/problem/D",
+    "submission_id": "CF118967546",
+    "submission_url": "https://codeforces.com/contest/48/submission/118967546",
+    "tags": [
+      "greedy",
+      "*1500"
+    ],
+    "timestamp": "Jun/10/2021 18:53"
+  },
   "CF119326450": {
     "contest_id": 1538,
     "language": "GNU C++17 (64)",
