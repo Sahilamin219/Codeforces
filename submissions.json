@@ -5471,6 +5471,23 @@
     ],
     "timestamp": "Jun/14/2021 15:43"
   },
+  "CF119652871": {
+    "contest_id": 425,
+    "language": "GNU C++14",
+    "path": "codeforces/425/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Sereja and Swaps",
+    "problem_url": "https://codeforces.com/contest/425/problem/A",
+    "submission_id": "CF119652871",
+    "submission_url": "https://codeforces.com/contest/425/submission/119652871",
+    "tags": [
+      "brute force",
+      "sortings",
+      "*1500"
+    ],
+    "timestamp": "Jun/16/2021 21:58"
+  },
   "CF53839645": {
     "contest_id": 939,
     "language": "GNU C++14",
