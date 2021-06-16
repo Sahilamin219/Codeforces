@@ -5471,6 +5471,24 @@
     ],
     "timestamp": "Jun/14/2021 15:43"
   },
+  "CF119629282": {
+    "contest_id": 1512,
+    "language": "GNU C++14",
+    "path": "codeforces/1512/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "A-B Palindrome",
+    "problem_url": "https://codeforces.com/contest/1512/problem/C",
+    "submission_id": "CF119629282",
+    "submission_url": "https://codeforces.com/contest/1512/submission/119629282",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "strings",
+      "*1200"
+    ],
+    "timestamp": "Jun/16/2021 17:12"
+  },
   "CF119648292": {
     "contest_id": 443,
     "language": "GNU C++14",
