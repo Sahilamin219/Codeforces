@@ -13,6 +13,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+642 | [B - Inna and New Matrix of Candies](https://codeforces.com/contest/400/problem/B) | [GNU C++14](./codeforces/400/B.cpp) | `brute force` `implementation` `schedules` `*1200` | Jun/19/2021 14:34 | 
 641 | [A - Sereja and Swaps](https://codeforces.com/contest/425/problem/A) | [GNU C++14](./codeforces/425/A.cpp) | `brute force` `sortings` `*1500` | Jun/16/2021 21:58 | 
 640 | [B - Kolya and Tandem Repeat](https://codeforces.com/contest/443/problem/B) | [GNU C++14](./codeforces/443/B.cpp) | `brute force` `implementation` `strings` `*1500` | Jun/16/2021 21:03 | 
 639 | [C - A-B Palindrome](https://codeforces.com/contest/1512/problem/C) | [GNU C++14](./codeforces/1512/C.cpp) | `constructive algorithms` `implementation` `strings` `*1200` | Jun/16/2021 17:12 | 
