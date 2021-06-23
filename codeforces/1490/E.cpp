@@ -159,8 +159,43 @@ void Solve_cf(){
 }
 int32_t main(){
 	ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+	#ifndef ONLINE_JUDGE
+	freopen("input.txt", "r", stdin);freopen("output.txt", "w", stdout);
+	#endif
     precalcubes();
 	int TestCase=1;cin>>TestCase;
 	while(TestCase--)Solve_cf();
 	return 0;
 }
+class Solution {
+public:
+    struct T {
+        int time, x, y;
+        T(int a, int b, int c) : time (a), x (b), y (c){}
+        
+    };
+    struct cmp{
+        bool operator() (const T &A, const T &B) {return A.time > B.time;}
+    };
+    int swimInWater(vector<vector<int>>& grid) {
+        int N=grid.size(), res=0;
+        priority_queue<T, vector<T>, cmp> pq;
+        pq.push(T(grid[0][0], 0, 0));
+        vector<vector<int>> seen(N, vector<int>(N, 0));
+        seen[0][0] = 1;
+        static int dir[4][2] = {{0, 1}, {0, -1}, {1, 0}, { -1, 0}};
+        while (true) {
+            auto p = pq.top ();
+            pq.pop ();
+            res = max(res, p.time);
+            if (p.x == N - 1 && p.y == N - 1) return res;
+            for (auto& d : dir) {
+                int i = p.x + d[0], j = p.y + d[1];
+                if (i >= 0 && i < N && j >= 0 && j < N && !seen[i][j]) {
+                    seen[i][j] = 1;
+                    pq.push (T(grid[i][j], i, j));
+                }
+            }
+        }
+    }
+};
