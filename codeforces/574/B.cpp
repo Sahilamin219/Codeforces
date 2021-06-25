@@ -1,4 +1,3 @@
-// AUTHOR :: SAHIL - AMIN
 #include "bits/stdc++.h"
 using namespace std;
 bool u[5005][5005];
