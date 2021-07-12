@@ -5931,6 +5931,23 @@
     ],
     "timestamp": "Jul/07/2021 20:32"
   },
+  "CF122182301": {
+    "contest_id": 1546,
+    "language": "GNU C++17",
+    "path": "codeforces/1546/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "AquaMoon and Two Arrays",
+    "problem_url": "https://codeforces.com/contest/1546/problem/A",
+    "submission_id": "CF122182301",
+    "submission_url": "https://codeforces.com/contest/1546/submission/122182301",
+    "tags": [
+      "brute force",
+      "greedy",
+      "*800"
+    ],
+    "timestamp": "Jul/12/2021 13:15"
+  },
   "CF122286375": {
     "contest_id": 1546,
     "language": "GNU C++17",
