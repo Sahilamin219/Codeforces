@@ -5998,6 +5998,22 @@
     ],
     "timestamp": "Jul/13/2021 13:33"
   },
+  "CF122622627": {
+    "contest_id": 1550,
+    "language": "Python 3",
+    "path": "codeforces/1550/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Find The Array",
+    "problem_url": "https://codeforces.com/contest/1550/problem/A",
+    "submission_id": "CF122622627",
+    "submission_url": "https://codeforces.com/contest/1550/submission/122622627",
+    "tags": [
+      "greedy",
+      "math"
+    ],
+    "timestamp": "Jul/16/2021 03:10"
+  },
   "CF122622738": {
     "contest_id": 1550,
     "language": "GNU C++17",
