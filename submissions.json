@@ -6047,6 +6047,24 @@
     ],
     "timestamp": "Jul/24/2021 20:37"
   },
+  "CF124575821": {
+    "contest_id": 1549,
+    "language": "GNU C++14",
+    "path": "codeforces/1549/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Gregor and the Pawn Game",
+    "problem_url": "https://codeforces.com/contest/1549/problem/B",
+    "submission_id": "CF124575821",
+    "submission_url": "https://codeforces.com/contest/1549/submission/124575821",
+    "tags": [
+      "flows",
+      "graphs",
+      "greedy",
+      "implementation"
+    ],
+    "timestamp": "Aug/01/2021 21:22"
+  },
   "CF124617002": {
     "contest_id": 1549,
     "language": "GNU C++14",
