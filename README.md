@@ -13,6 +13,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+729 | [D - Rating Compression](https://codeforces.com/contest/1450/problem/D) | [GNU C++14](./codeforces/1450/D.cpp) | `binary search` `data structures` `greedy` `implementation` `two pointers` `*1800` | Aug/04/2021 18:47 | 
 728 | [C - Web of Lies](https://codeforces.com/contest/1549/problem/C) | [GNU C++14](./codeforces/1549/C.cpp) | `graphs` `greedy` | Aug/02/2021 01:58 | 
 727 | [B - Gregor and the Pawn Game](https://codeforces.com/contest/1549/problem/B) | [GNU C++14](./codeforces/1549/B.cpp) | `flows` `graphs` `greedy` `implementation` | Aug/01/2021 21:22 | 
 726 | [A - Gregor and Cryptography](https://codeforces.com/contest/1549/problem/A) | [GNU C++14](./codeforces/1549/A.cpp) | `math` `number theory` | Aug/01/2021 20:14 | 
@@ -320,8 +321,8 @@ A repository to keep track of problem solving practice, containing solutions fro
 424 | [E - Two Round Dances](https://codeforces.com/contest/1433/problem/E) | [GNU C++17](./codeforces/1433/E.cpp) | `combinatorics` `math` `*1300` | Oct/22/2020 15:22 | 
 423 | [D - Districts Connection](https://codeforces.com/contest/1433/problem/D) | [GNU C++17](./codeforces/1433/D.cpp) | `constructive algorithms` `dfs and similar` `*1200` | Oct/21/2020 00:14 | 
 422 | [C - Dominant Piranha](https://codeforces.com/contest/1433/problem/C) | [Python 3](./codeforces/1433/C.py) | `constructive algorithms` `greedy` `*900` | Oct/20/2020 23:17 | 
-421 | [B - Yet Another Bookshelf](https://codeforces.com/contest/1433/problem/B) | [Python 3](./codeforces/1433/B.py) | `greedy` `implementation` `*800` | Oct/20/2020 23:16 | 
-420 | [A - Boring Apartments](https://codeforces.com/contest/1433/problem/A) | [Python 3](./codeforces/1433/A.py) | `implementation` `math` `*800` | Oct/20/2020 23:16 | 
+421 | [A - Boring Apartments](https://codeforces.com/contest/1433/problem/A) | [Python 3](./codeforces/1433/A.py) | `implementation` `math` `*800` | Oct/20/2020 23:16 | 
+420 | [B - Yet Another Bookshelf](https://codeforces.com/contest/1433/problem/B) | [Python 3](./codeforces/1433/B.py) | `greedy` `implementation` `*800` | Oct/20/2020 23:16 | 
 419 | [C - Bargain](https://codeforces.com/contest/1422/problem/C) | [Python 3](./codeforces/1422/C.py) | `combinatorics` `dp` `math` `*1700` | Oct/20/2020 15:01 | 
 418 | [B - Putting Bricks in the Wall](https://codeforces.com/contest/1421/problem/B) | [GNU C++17](./codeforces/1421/B.cpp) | `constructive algorithms` `implementation` `*1100` | Oct/18/2020 21:08 | 
 417 | [A - XORwice](https://codeforces.com/contest/1421/problem/A) | [GNU C++17](./codeforces/1421/A.cpp) | `bitmasks` `greedy` `math` `*800` | Oct/18/2020 20:27 | 
