@@ -13,11 +13,12 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-734 | [B - Odd Grasshopper](https://codeforces.com/contest/1607/problem/B) | [Python 3](./codeforces/1607/B.py) | `math` `*900` | Nov/02/2021 23:52 | 
-733 | [B2 - Books Exchange (hard version)](https://codeforces.com/contest/1249/problem/B2) | [GNU C++14](./codeforces/1249/B2.cpp) | `dfs and similar` `dsu` `math` `*1300` | Oct/23/2021 14:21 | 
-732 | [B1 - Books Exchange (easy version)](https://codeforces.com/contest/1249/problem/B1) | [GNU C++14](./codeforces/1249/B1.cpp) | `dsu` `math` `*1000` | Oct/23/2021 14:06 | 
-731 | [C2 - Skyscrapers (hard version)](https://codeforces.com/contest/1313/problem/C2) | [GNU C++14](./codeforces/1313/C2.cpp) | `data structures` `dp` `greedy` `*1900` | Oct/20/2021 00:08 | 
-730 | [D - Backspace](https://codeforces.com/contest/1553/problem/D) | [GNU C++14](./codeforces/1553/D.cpp) | `dp` `greedy` `strings` `two pointers` `*1500` | Oct/06/2021 01:12 | 
+735 | [B - Odd Grasshopper](https://codeforces.com/contest/1607/problem/B) | [Python 3](./codeforces/1607/B.py) | `math` `*900` | Nov/02/2021 23:52 | 
+734 | [B2 - Books Exchange (hard version)](https://codeforces.com/contest/1249/problem/B2) | [GNU C++14](./codeforces/1249/B2.cpp) | `dfs and similar` `dsu` `math` `*1300` | Oct/23/2021 14:21 | 
+733 | [B1 - Books Exchange (easy version)](https://codeforces.com/contest/1249/problem/B1) | [GNU C++14](./codeforces/1249/B1.cpp) | `dsu` `math` `*1000` | Oct/23/2021 14:06 | 
+732 | [C2 - Skyscrapers (hard version)](https://codeforces.com/contest/1313/problem/C2) | [GNU C++14](./codeforces/1313/C2.cpp) | `data structures` `dp` `greedy` `*1900` | Oct/20/2021 00:08 | 
+731 | [D - Backspace](https://codeforces.com/contest/1553/problem/D) | [GNU C++14](./codeforces/1553/D.cpp) | `dp` `greedy` `strings` `two pointers` `*1500` | Oct/06/2021 01:12 | 
+730 | [C - Carrying Conundrum](https://codeforces.com/contest/1567/problem/C) | [GNU C++14](./codeforces/1567/C.cpp) | `bitmasks` `combinatorics` `dp` `math` `*1600` | Oct/01/2021 22:45 | 
 729 | [D - Rating Compression](https://codeforces.com/contest/1450/problem/D) | [GNU C++14](./codeforces/1450/D.cpp) | `binary search` `data structures` `greedy` `implementation` `two pointers` `*1800` | Aug/04/2021 18:47 | 
 728 | [C - Web of Lies](https://codeforces.com/contest/1549/problem/C) | [GNU C++14](./codeforces/1549/C.cpp) | `graphs` `greedy` | Aug/02/2021 01:58 | 
 727 | [B - Gregor and the Pawn Game](https://codeforces.com/contest/1549/problem/B) | [GNU C++14](./codeforces/1549/B.cpp) | `flows` `graphs` `greedy` `implementation` | Aug/01/2021 21:22 | 
